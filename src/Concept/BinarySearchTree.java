@@ -103,6 +103,7 @@ public class BinarySearchTree {
         System.out.println("Pre-order traversal: " + result); // Prints result
     } // Summary: Prints nodes in pre-order (Root, Left, Right).
 
+
     // Private recursive method for pre-order traversal
     private void preOrder(Node node, ArrayList<Integer> result) { // Traverses subtree pre-order
         if (node == null) { // Base case: empty subtree

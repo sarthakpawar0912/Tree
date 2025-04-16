@@ -152,6 +152,7 @@ public class BinarySearchTree {
         result.add(node.value); // Visits root
     } // Summary: Adds left, then right, then root values to result (O(n) time).
 
+
     // Public method to display tree
     public void display() { // Initiates tree display
         if (root == null) { // Checks for empty tree

@@ -8,7 +8,9 @@ public class BinarySearchTree {
 
     // Private inner class for tree nodes (encapsulated)
     private class Node { // Private to prevent external access
+
         int value; // Node data (BST key)
+
         int height; // Height for balance checking
         Node left; // Left child reference
         Node right; // Right child reference

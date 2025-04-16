@@ -42,15 +42,18 @@ public class BinarySearchTree {
         return node.height; // Returns stored height
     } // Summary: Returns node height (-1 for null, else node.height).
 
+
     // Checks if tree is empty
     public boolean isEmpty() { // Verifies if BST has no nodes
         return root == null; // True if root is null
     } // Summary: Returns true if tree is empty, false otherwise.
 
+
     // Public method to insert a value
     public void insert(int value) { // Initiates insertion into BST
         root = insert(value, root); // Updates root with new node
     } // Summary: Calls recursive insert with root and updates tree.
+
 
     // Private recursive method to insert a value
     private Node insert(int value, Node node) { // Inserts value into subtree

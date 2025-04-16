@@ -176,7 +176,7 @@ public class BinaryTree {
         tree1.display(); // Displays tree
         System.out.println();
 
-        // Test Case 2: Single node tree
+
         System.out.println("Test Case 2: Single Node Tree");
         System.out.println("-----------------------------------------------");
         BinaryTree tree2 = new BinaryTree(); // Creates new tree

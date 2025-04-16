@@ -143,7 +143,7 @@ public class BinaryTree {
             if (!empty) { // Prints non-empty rows
                 System.out.println(new String(row).trim()); // Prints row, removes trailing spaces
             }
-        } // Skips empty rows
+        }
     } // Summary: Prints grid rows, trimming empty ones for clean output.
 
     // Helper method to insert node programmatically (for testing)

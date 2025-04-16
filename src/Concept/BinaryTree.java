@@ -168,7 +168,7 @@ public class BinaryTree {
     public static void main(String[] args) { // Entry point for testing
         Scanner scanner = new Scanner(System.in); // Scanner for input
 
-        // Test Case 1: Interactive input
+
         System.out.println("Test Case 1: Interactive Binary Tree Construction");
         System.out.println("-----------------------------------------------");
         BinaryTree tree1 = new BinaryTree(); // Creates new tree

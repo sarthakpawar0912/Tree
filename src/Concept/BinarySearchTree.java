@@ -122,6 +122,7 @@ public class BinarySearchTree {
         System.out.println("In-order traversal: " + result); // Prints result
     } // Summary: Prints nodes in in-order (Left, Root, Right), sorted for BST.
 
+
     // Private recursive method for in-order traversal
     private void inOrder(Node node, ArrayList<Integer> result) { // Traverses subtree in-order
         if (node == null) { // Base case: empty subtree

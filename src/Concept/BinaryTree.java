@@ -7,7 +7,9 @@ public class BinaryTree {
     private static class Node {
 
         int value; // Node data
+
         Node left; // Left child reference
+
         Node right; // Right child reference
 
         public Node(int value) { // Constructor for leaf node

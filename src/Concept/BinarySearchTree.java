@@ -23,7 +23,7 @@ public class BinarySearchTree {
         } // Summary: Creates a leaf node with given value.
 
         public int getValue() { // Getter for value
-            return value; // Returns node’s value
+            return value;
         } // Summary: Provides access to value for display.
     } // Summary: Represents a BST node with value, height, and child pointers.
 

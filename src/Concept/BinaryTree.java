@@ -28,10 +28,12 @@ public class BinaryTree {
 
     // Public method to populate tree interactively
     public void populate(Scanner scanner) {
+       
         System.out.println("Enter the root node value (integer): "); // Clear prompt for root
         int value = scanner.nextInt(); // Reads root value
         root = new Node(value); // Creates root node
         populate(scanner, root); // Recursively builds subtrees
+
     } // Summary: Initializes root and delegates to recursive populate.
 
     // Private recursive method to build subtrees

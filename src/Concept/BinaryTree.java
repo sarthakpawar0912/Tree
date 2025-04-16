@@ -38,6 +38,7 @@ public class BinaryTree {
 
     // Private recursive method to build subtrees
     private void populate(Scanner scanner, Node node) { // Builds left/right subtrees
+
         // Prompt for left child
         System.out.println("Add left child for node " + node.value + "? Enter 'y' for yes, 'n' for no: "); // Clear instruction
         String leftInput = scanner.next(); // Reads y/n
@@ -56,7 +57,9 @@ public class BinaryTree {
             int value = scanner.nextInt(); // Reads child value
             node.right = new Node(value); // Creates right node
             populate(scanner, node.right); // Recurses on right child
+
         } // If n or invalid, skips right child
+
     } // Summary: Recursively adds children based on user input, stops when 'n' is entered.
 
     // Helper method to get tree height

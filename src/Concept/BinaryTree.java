@@ -239,6 +239,6 @@ public class BinaryTree {
         tree6.display(); // Expected: Mixed structure
         System.out.println();
 
-        scanner.close(); // Closes scanner to prevent resource leak
+        scanner.close();
     } // Summary: Tests binary tree with interactive input, single node, balanced, skewed, and complex trees.
 }

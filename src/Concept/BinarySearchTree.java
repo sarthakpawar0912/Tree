@@ -141,6 +141,7 @@ public class BinarySearchTree {
         System.out.println("Post-order traversal: " + result); // Prints result
     } // Summary: Prints nodes in post-order (Left, Right, Root).
 
+
     // Private recursive method for post-order traversal
     private void postOrder(Node node, ArrayList<Integer> result) { // Traverses subtree post-order
         if (node == null) { // Base case: empty subtree

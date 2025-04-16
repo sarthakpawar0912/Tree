@@ -1,7 +1,7 @@
 package Concept;
 
-import java.util.ArrayList; // For storing traversal results
-import java.util.Scanner; // Imports Scanner for interactive input
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class BinarySearchTree { // Declares public class for Binary Search Tree
 

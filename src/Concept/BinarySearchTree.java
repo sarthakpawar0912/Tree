@@ -3,7 +3,8 @@ package Concept;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class BinarySearchTree { // Declares public class for Binary Search Tree
+public class BinarySearchTree {
+
 
     // Private inner class for tree nodes (encapsulated)
     private class Node { // Private to prevent external access

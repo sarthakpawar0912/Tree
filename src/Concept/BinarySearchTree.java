@@ -172,6 +172,7 @@ public class BinarySearchTree {
         printGrid(grid); // Prints tree diagram
     } // Summary: Renders BST as ASCII tree with / \ branches.
 
+
     // Private method to place node and branches in grid
     private void placeNode(Node node, int row, int col, int level, char[][] grid, int width) { // Positions node and children
         if (node == null) { // Base case: empty subtree

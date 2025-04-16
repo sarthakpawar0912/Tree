@@ -22,8 +22,8 @@ public class BinaryTree {
     private Node root; // Root node of the tree
 
     // Constructor
-    public BinaryTree() { // Initializes empty tree
-        // root is null by default
+    public BinaryTree() {
+
     } // Summary: Creates an empty binary tree.
 
     // Public method to populate tree interactively

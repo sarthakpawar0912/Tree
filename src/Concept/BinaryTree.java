@@ -212,7 +212,8 @@ public class BinaryTree {
         tree4.display(); // Expected: Left chain
         System.out.println();
 
-        // Test Case 5: Right-skewed tree
+
+
         System.out.println("Test Case 5: Right-Skewed Binary Tree");
         System.out.println("-----------------------------------------------");
         BinaryTree tree5 = new BinaryTree(); // Creates new tree

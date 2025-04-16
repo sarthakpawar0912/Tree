@@ -12,7 +12,9 @@ public class BinarySearchTree {
         int value; // Node data (BST key)
 
         int height; // Height for balance checking
+
         Node left; // Left child reference
+
         Node right; // Right child reference
 
         public Node(int value) { // Constructor for new node

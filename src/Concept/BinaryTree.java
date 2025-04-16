@@ -146,6 +146,7 @@ public class BinaryTree {
         }
     } // Summary: Prints grid rows, trimming empty ones for clean output.
 
+
     // Helper method to insert node programmatically (for testing)
     public void insert(int value, String position, Node parent) { // Inserts node at specified position
         if (root == null && position.equals("root")) { // If inserting root

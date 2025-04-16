@@ -114,6 +114,7 @@ public class BinarySearchTree {
         preOrder(node.right, result); // Recurses on right
     } // Summary: Adds root, then left, then right values to result (O(n) time).
 
+
     // Public method for in-order traversal
     public void inOrder() { // Initiates in-order traversal
         ArrayList<Integer> result = new ArrayList<>(); // Stores traversal

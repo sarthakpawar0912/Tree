@@ -75,21 +75,30 @@ public class BinaryTree {
 
     // Public method to display tree
     public void display() { // Initiates tree display
+
         if (root == null) { // Checks for empty tree
             System.out.println("Tree is empty"); // Prints empty message
             return; // Exits
         } // Handles edge case
+
         System.out.println("Tree structure:"); // Labels output
+
         int height = getHeight(root); // Gets tree height
+
         int width = (int) Math.pow(2, height) * 3; // Compact width
+
         char[][] grid = new char[height * 2][width]; // Rows for nodes and branches
+
         for (int i = 0; i < height * 2; i++) { // Initializes grid
             for (int j = 0; j < width; j++) {
                 grid[i][j] = ' '; // Fills with spaces
             }
         } // Creates empty grid
+
         placeNode(root, 0, width / 2, 0, grid, width); // Places root and builds tree
+
         printGrid(grid); // Prints grid as tree
+
     } // Summary: Sets up compact grid and renders tree as ASCII diagram.
 
     // Private method to place node and branches in grid

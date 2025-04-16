@@ -1,7 +1,7 @@
 package Concept;
 import java.util.Scanner;
 
-public class BinaryTree { // Declares public class for binary tree implementation
+public class BinaryTree {
 
     // Nested Node class to represent tree nodes
     private static class Node { // Static to avoid needing BinaryTree instance

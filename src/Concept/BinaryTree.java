@@ -12,6 +12,7 @@ public class BinaryTree {
         public Node(int value) { // Constructor for leaf node
             this.value = value; // Sets value, children default to null
         }
+
     } // Summary: Represents a tree node with value and child pointers.
 
 

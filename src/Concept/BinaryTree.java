@@ -5,6 +5,7 @@ public class BinaryTree {
 
     // Nested Node class to represent tree nodes
     private static class Node {
+
         int value; // Node data
         Node left; // Left child reference
         Node right; // Right child reference

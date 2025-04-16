@@ -27,7 +27,7 @@ public class BinaryTree {
     } // Summary: Creates an empty binary tree.
 
     // Public method to populate tree interactively
-    public void populate(Scanner scanner) { // Starts tree construction
+    public void populate(Scanner scanner) {
         System.out.println("Enter the root node value (integer): "); // Clear prompt for root
         int value = scanner.nextInt(); // Reads root value
         root = new Node(value); // Creates root node

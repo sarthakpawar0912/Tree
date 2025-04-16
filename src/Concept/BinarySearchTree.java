@@ -95,6 +95,7 @@ public class BinarySearchTree {
         return 1 + Math.max(getHeight(node.left), getHeight(node.right)); // Height is 1 + max child height
     } // Summary: Returns tree height for grid allocation.
 
+
     // Public method for pre-order traversal
     public void preOrder() { // Initiates pre-order traversal
         ArrayList<Integer> result = new ArrayList<>(); // Stores traversal

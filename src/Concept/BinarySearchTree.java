@@ -29,7 +29,7 @@ public class BinarySearchTree {
 
     private Node root; // Root node of the BST
 
-    // Constructor
+
     public BinarySearchTree() { // Initializes empty BST
         // root is null by default
     } // Summary: Creates an empty Binary Search Tree.

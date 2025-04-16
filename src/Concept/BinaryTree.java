@@ -64,10 +64,13 @@ public class BinaryTree {
 
     // Helper method to get tree height
     private int getHeight(Node node) { // Computes height of subtree
+
         if (node == null) { // Base case: empty tree
             return 0; // Height 0
         } // Handles null nodes
+
         return 1 + Math.max(getHeight(node.left), getHeight(node.right)); // Height is 1 + max of child heights
+
     } // Summary: Returns tree height for display sizing.
 
     // Public method to display tree

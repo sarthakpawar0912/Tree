@@ -202,6 +202,7 @@ public class BinarySearchTree {
         } // Draws branches and recurses
     } // Summary: Places padded node value and / \ branches, aligns with child centers.
 
+
     // Private method to print grid
     private void printGrid(char[][] grid) { // Prints 2D grid as tree
         for (char[] row : grid) { // Iterates through rows

@@ -1,4 +1,4 @@
-package Concept; // Organizes class in package
+package Concept;
 
 import java.util.ArrayList; // For storing traversal results
 import java.util.Scanner; // Imports Scanner for interactive input

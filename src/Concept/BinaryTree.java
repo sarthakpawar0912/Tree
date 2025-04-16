@@ -163,6 +163,7 @@ public class BinaryTree {
         } // Ignores invalid positions
     } // Summary: Programmatically adds nodes for test cases, specifying parent and position.
 
+
     // Main function with multiple test cases
     public static void main(String[] args) { // Entry point for testing
         Scanner scanner = new Scanner(System.in); // Scanner for input

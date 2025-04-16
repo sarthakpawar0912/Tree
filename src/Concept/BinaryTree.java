@@ -184,8 +184,9 @@ public class BinaryTree {
         tree2.display(); // Expected: Single node
         System.out.println();
 
-        // Test Case 3: Balanced tree
-        System.out.println("Test Case 3: Balanced Binary Tree");
+
+
+       System.out.println("Test Case 3: Balanced Binary Tree");
         System.out.println("-----------------------------------------------");
         BinaryTree tree3 = new BinaryTree(); // Creates new tree
         tree3.insert(1, "root", null); // Root

@@ -76,6 +76,7 @@ public class BinarySearchTree {
         return balanced(root); // Calls recursive balanced
     } // Summary: Returns true if tree is balanced.
 
+
     // Private recursive method to check balance
     private boolean balanced(Node node) { // Verifies subtree balance
         if (node == null) { // Base case: empty subtree
@@ -84,6 +85,7 @@ public class BinarySearchTree {
         int heightDiff = Math.abs(height(node.left) - height(node.right)); // Computes height difference
         return heightDiff <= 1 && balanced(node.left) && balanced(node.right); // Checks balance and subtrees
     } // Summary: True if height difference ≤ 1 and subtrees are balanced (O(n) time).
+
 
     // Helper method to get tree height
     private int getHeight(Node node) { // Computes height for display sizing

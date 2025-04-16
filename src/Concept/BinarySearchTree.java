@@ -17,7 +17,7 @@ public class BinarySearchTree {
 
         Node right; // Right child reference
 
-        public Node(int value) { // Constructor for new node
+        public Node(int value) {
             this.value = value; // Sets value
             this.height = 0; // Initial height (leaf node)
         } // Summary: Creates a leaf node with given value.

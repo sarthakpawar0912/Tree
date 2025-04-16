@@ -31,7 +31,7 @@ public class BinarySearchTree {
 
 
     public BinarySearchTree() { // Initializes empty BST
-        // root is null by default
+
     } // Summary: Creates an empty Binary Search Tree.
 
     // Returns height of a node

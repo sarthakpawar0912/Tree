@@ -1,4 +1,4 @@
-package Concept; // Organizes class in package
+package Concept;
 import java.util.Scanner;
 
 public class BinaryTree { // Declares public class for binary tree implementation

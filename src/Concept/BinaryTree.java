@@ -127,7 +127,7 @@ public class BinaryTree {
                 }
                 placeNode(node.right, row + 2, col + offset, level + 1, grid, width); // Recurses on right
             }
-        } // Draws branches and recurses
+        }
     } // Summary: Places padded node value and / \ branches, aligns with child centers.
 
     // Private method to print grid

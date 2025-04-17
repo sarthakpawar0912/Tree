@@ -51,7 +51,7 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
         return result; // Returns levels from leaves to root
     } // Summary: Traverses tree bottom-up using BFS (O(n) time, n=nodes).
 
-    // Main function to test bottom-up traversal
+
     public static void main(String[] args) { // Entry point for testing
         LevelOrderBottom solution = new LevelOrderBottom(); // Creates instance
 

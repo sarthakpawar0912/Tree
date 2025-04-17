@@ -51,7 +51,7 @@ public class BinaryTreeLevelOrderTraversal {
         return result; // Returns all levels
     } // Summary: Traverses tree level by level using BFS (O(n) time, n=nodes).
 
-    // Main function to test level order traversal
+
     public static void main(String[] args) { // Entry point for testing
         BinaryTreeLevelOrderTraversal solution = new BinaryTreeLevelOrderTraversal(); // Creates instance
 

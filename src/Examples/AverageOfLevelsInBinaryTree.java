@@ -1,9 +1,10 @@
-package Examples; // Organizes class in package
+package Examples;
 
-import java.util.ArrayList; // For result list
-import java.util.LinkedList; // For queue
-import java.util.List; // For List type
-import java.util.Queue; // For Queue type
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 
 public class AverageOfLevelsInBinaryTree { // Class for average of levels
 

@@ -22,7 +22,7 @@ public class CousinsInBinaryTree { // Class for checking cousins
             this.val = val;
             this.left = left;
             this.right = right;
-        } // Summary: Creates node with value and optional children.
+        }
     } // Summary: Represents a binary tree node.
 
     // Checks if nodes with values x and y are cousins

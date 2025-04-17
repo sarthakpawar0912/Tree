@@ -24,7 +24,7 @@ public class BinaryTreeRightSideView {
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Returns rightmost node values at each level
     public List<Integer> rightSideView(TreeNode root) { // Main method for right side view

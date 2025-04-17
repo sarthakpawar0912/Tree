@@ -93,5 +93,5 @@ public class PopulatingNextRightPointersInEachNode { // Class for populating nex
             levelStart = levelStart.left; // Start of next level
         }
         System.out.println("]");
-    } // Summary: Prints tree in level order format with # for level ends.
+    }
 }

@@ -71,5 +71,5 @@ public class AverageOfLevelsInBinaryTree {
         root2.left.left = new TreeNode(15); // Level 2 left
         root2.left.right = new TreeNode(7); // Level 2 right
         System.out.println("Output: " + solution.averageOfLevels(root2)); // Expected: [3.0, 14.5, 11.0]
-    } // Summary: Tests averages with problem examples.
+    }
 }

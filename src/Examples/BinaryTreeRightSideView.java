@@ -58,8 +58,8 @@ public class BinaryTreeRightSideView {
         return result; // Returns rightmost values
     } // Summary: Collects rightmost node values using BFS (O(n) time, n=nodes).
 
-    // Main function to test right side view
-    public static void main(String[] args) { // Entry point for testing
+
+   public static void main(String[] args) { // Entry point for testing
         BinaryTreeRightSideView solution = new BinaryTreeRightSideView(); // Creates instance
 
         // Test Case 1: Example 1 - [1,2,3,null,5,null,4]

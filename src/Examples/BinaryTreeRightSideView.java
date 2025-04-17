@@ -1,6 +1,6 @@
 package Examples;
 
-import java.util.ArrayList; // For result list
+import java.util.ArrayList;
 import java.util.LinkedList; // For queue
 import java.util.List; // For List type
 import java.util.Queue; // For Queue type

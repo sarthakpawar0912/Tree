@@ -2,7 +2,7 @@ package Examples;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List; // For List type
+import java.util.List;
 import java.util.Deque; // For Deque type
 
 public class BinaryTreeZigzagLevelOrderTraversal { // Class for zigzag traversal

@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class BinaryTreeLevelOrderTraversal { // Class for level order traversal
+public class BinaryTreeLevelOrderTraversal {
 
     // Definition for a binary tree node
     static class TreeNode { // Simple node structure

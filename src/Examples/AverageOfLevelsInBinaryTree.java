@@ -50,7 +50,7 @@ public class AverageOfLevelsInBinaryTree {
         return result; // Returns averages
     } // Summary: Computes level averages using BFS (O(n) time, n=nodes).
 
-    // Main function to test average of levels
+
     public static void main(String[] args) { // Entry point for testing
         AverageOfLevelsInBinaryTree solution = new AverageOfLevelsInBinaryTree(); // Creates instance
 

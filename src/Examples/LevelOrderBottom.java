@@ -73,5 +73,5 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
         System.out.println("\nTest Case 3:");
         TreeNode root3 = null; // Empty tree
         System.out.println("Output: " + solution.levelOrderBottom(root3)); // Expected: []
-    } // Summary: Tests bottom-up traversal with problem examples.
+    }
 }

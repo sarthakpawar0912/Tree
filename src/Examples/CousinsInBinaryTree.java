@@ -1,7 +1,7 @@
- package Examples; // Organizes class in package
+ package Examples;
 
-import java.util.LinkedList; // For queue
-import java.util.Queue; // For Queue type
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class CousinsInBinaryTree { // Class for checking cousins
 

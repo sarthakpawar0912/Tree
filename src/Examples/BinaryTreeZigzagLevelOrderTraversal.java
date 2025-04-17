@@ -1,4 +1,4 @@
-package Examples; // Organizes class in package
+package Examples;
 
 import java.util.ArrayList; // For result list
 import java.util.LinkedList; // For deque

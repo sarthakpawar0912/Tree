@@ -25,7 +25,7 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
         List<List<Integer>> result = new ArrayList<>(); // Stores levels (bottom to top)
 
         if (root == null) { // Empty tree
-            return result; // Returns empty list
+            return result;
         } // Handles base case
 
         Queue<TreeNode> queue = new LinkedList<>(); // Queue for BFS

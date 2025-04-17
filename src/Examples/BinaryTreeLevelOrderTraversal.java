@@ -25,7 +25,7 @@ public class BinaryTreeLevelOrderTraversal { // Class for level order traversal
         List<List<Integer>> result = new ArrayList<>(); // Stores levels
 
         if (root == null) { // Empty tree
-            return result; // Returns empty list
+            return result;
         } // Handles base case
 
         Queue<TreeNode> queue = new LinkedList<>(); // Queue for BFS

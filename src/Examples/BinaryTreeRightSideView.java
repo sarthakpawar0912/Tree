@@ -90,5 +90,5 @@ public class BinaryTreeRightSideView {
         System.out.println("\nTest Case 4:");
         TreeNode root4 = null;
         System.out.println("Output: " + solution.rightSideView(root4)); // Expected: []
-    } // Summary: Tests right side view with problem examples.
+    }
 }

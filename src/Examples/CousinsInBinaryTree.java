@@ -70,7 +70,7 @@ public class CousinsInBinaryTree { // Class for checking cousins
         return depthX == depthY && depthX != -1 && parentX != parentY; // Same depth, different parents
     } // Summary: Checks if x and y are cousins using BFS (O(n) time, n=nodes).
 
-    // Main function to test cousins check
+
     public static void main(String[] args) { // Entry point for testing
         CousinsInBinaryTree solution = new CousinsInBinaryTree(); // Creates instance
 

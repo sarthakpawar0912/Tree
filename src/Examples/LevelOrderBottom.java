@@ -1,13 +1,13 @@
-package Examples; // Organizes class in package
+package Examples;
 
-import java.util.ArrayList; // For result list
-import java.util.LinkedList; // For queue
-import java.util.List; // For List type
-import java.util.Queue; // For Queue type
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 public class LevelOrderBottom { // Class for bottom-up level order traversal
 
-    // Definition for a binary tree node
+
     static class TreeNode { // Simple node structure
         int val; // Node value
         TreeNode left; // Left child
@@ -18,7 +18,7 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
             this.left = null; // No left child
             this.right = null; // No right child
         } // Summary: Creates node with value.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Returns bottom-up level order traversal
     public List<List<Integer>> levelOrderBottom(TreeNode root) { // Main traversal method

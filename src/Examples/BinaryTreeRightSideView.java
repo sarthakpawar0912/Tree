@@ -7,7 +7,7 @@ import java.util.Queue;
 
 public class BinaryTreeRightSideView { // Class for right side view
 
-    // Definition for a binary tree node
+
     static class TreeNode { // Simple node structure
         int val; // Node value
         TreeNode left; // Left child

@@ -1,16 +1,15 @@
-
-package Examples; // Organizes class in package
+package Examples;
 
 public class PopulatingNextRightPointersInEachNode { // Class for populating next pointers
 
-    // Definition for a binary tree node with next pointer
+
     static class Node { // Node structure for perfect binary tree
         public int val; // Node value
         public Node left; // Left child
         public Node right; // Right child
         public Node next; // Next right node at same level
 
-        public Node() {} // Default constructor
+        public Node() {}
 
         public Node(int _val) { // Constructor with value
             val = _val;
@@ -22,7 +21,8 @@ public class PopulatingNextRightPointersInEachNode { // Class for populating nex
             right = _right;
             next = _next;
         } // Summary: Creates node with value, children, and next pointer.
-    } // Summary: Represents a node in a perfect binary tree.
+    }
+
 
     // Populates next pointers to point to right neighbor
     public Node connect(Node root) { // Main method to connect next pointers

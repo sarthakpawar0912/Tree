@@ -1,7 +1,7 @@
 package Examples;
 
 import java.util.ArrayList;
-import java.util.LinkedList; // For deque
+import java.util.LinkedList;
 import java.util.List; // For List type
 import java.util.Deque; // For Deque type
 

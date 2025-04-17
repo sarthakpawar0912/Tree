@@ -73,5 +73,5 @@ public class BinaryTreeLevelOrderTraversal {
         System.out.println("\nTest Case 3:");
         TreeNode root3 = null; // Empty tree
         System.out.println("Output: " + solution.levelOrder(root3)); // Expected: []
-    } // Summary: Tests traversal with problem examples.
+    }
 }

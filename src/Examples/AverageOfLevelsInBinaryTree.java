@@ -17,7 +17,7 @@ public class AverageOfLevelsInBinaryTree {
             this.left = null; // No left child
             this.right = null; // No right child
         } // Summary: Creates node with value.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Returns average value of nodes at each level
     public List<Double> averageOfLevels(TreeNode root) { // Main method for averages

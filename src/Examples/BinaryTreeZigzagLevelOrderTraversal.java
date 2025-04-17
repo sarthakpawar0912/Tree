@@ -1,6 +1,6 @@
 package Examples;
 
-import java.util.ArrayList; // For result list
+import java.util.ArrayList;
 import java.util.LinkedList; // For deque
 import java.util.List; // For List type
 import java.util.Deque; // For Deque type

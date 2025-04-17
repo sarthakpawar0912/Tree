@@ -23,7 +23,8 @@ public class CousinsInBinaryTree { // Class for checking cousins
             this.left = left;
             this.right = right;
         }
-    } // Summary: Represents a binary tree node.
+    }
+
 
     // Checks if nodes with values x and y are cousins
     public boolean isCousins(TreeNode root, int x, int y) { // Main method to check cousins

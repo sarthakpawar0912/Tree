@@ -99,5 +99,5 @@ public class CousinsInBinaryTree { // Class for checking cousins
         root3.right = new TreeNode(3);
         root3.left.right = new TreeNode(4);
         System.out.println("Output: " + solution.isCousins(root3, 2, 3)); // Expected: false
-    } // Summary: Tests cousins check with problem examples.
+    }
 }

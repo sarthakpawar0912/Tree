@@ -11,7 +11,8 @@ public class CousinsInBinaryTree { // Class for checking cousins
         TreeNode left; // Left child
         TreeNode right; // Right child
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
+
 
         TreeNode(int val) { // Constructor with value
             this.val = val;

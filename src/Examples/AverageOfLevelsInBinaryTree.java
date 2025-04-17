@@ -5,10 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-
 public class AverageOfLevelsInBinaryTree { // Class for average of levels
 
-    // Definition for a binary tree node
     static class TreeNode { // Simple node structure
         int val; // Node value
         TreeNode left; // Left child

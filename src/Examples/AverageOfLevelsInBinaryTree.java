@@ -24,7 +24,7 @@ public class AverageOfLevelsInBinaryTree {
         List<Double> result = new ArrayList<>(); // Stores level averages
 
         if (root == null) { // Empty tree
-            return result; // Returns empty list
+            return result;
         } // Handles base case
 
         Queue<TreeNode> queue = new LinkedList<>(); // Queue for BFS

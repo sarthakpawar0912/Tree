@@ -58,7 +58,7 @@ public class BinaryTreeZigzagLevelOrderTraversal { // Class for zigzag traversal
         return result; // Returns zigzag levels
     } // Summary: Traverses tree in zigzag order using BFS (O(n) time, n=nodes).
 
-    // Main function to test zigzag traversal
+
     public static void main(String[] args) { // Entry point for testing
         BinaryTreeZigzagLevelOrderTraversal solution = new BinaryTreeZigzagLevelOrderTraversal(); // Creates instance
 

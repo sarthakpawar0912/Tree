@@ -32,7 +32,7 @@ public class ConvertSortedArraytoBinarySearchTree { // Class for converting sort
     // Helper method to build BST recursively
     private TreeNode buildBST(int[] nums, int start, int end) { // Builds BST for array segment
         if (start > end) { // Empty segment
-            return null; // Return null node
+            return null;
         }
 
         int mid = start + (end - start) / 2; // Middle index (avoid overflow)

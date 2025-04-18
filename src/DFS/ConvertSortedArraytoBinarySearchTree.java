@@ -61,5 +61,5 @@ public class ConvertSortedArraytoBinarySearchTree { // Class for converting sort
         TreeNode result2 = solution.sortedArrayToBST(nums2);
         System.out.println("Output: [3,1]"); // Expected level-order
         // Note: Tree structure verified as balanced BST (3 root, 1 left)
-    } // Summary: Tests BST construction with problem examples.
+    }
 }

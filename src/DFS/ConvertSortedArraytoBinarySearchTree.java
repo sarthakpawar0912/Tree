@@ -8,7 +8,7 @@ public class ConvertSortedArraytoBinarySearchTree { // Class for converting sort
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
 
         TreeNode(int val) { // Constructor with value
             this.val = val;

@@ -1,9 +1,9 @@
 package DFS;
 
-import java.util.LinkedList; // For queue in printTree
-import java.util.Queue; // For Queue type
+import java.util.LinkedList;
+import java.util.Queue;
 
-public class InvertBinaryTree { // Class for inverting binary tree
+public class InvertBinaryTree {
 
     // Definition for a binary tree node
     static class TreeNode { // Simple node structure

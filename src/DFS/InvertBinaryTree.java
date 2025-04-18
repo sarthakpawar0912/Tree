@@ -22,7 +22,7 @@ public class InvertBinaryTree {
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Inverts the binary tree by swapping left and right children
     public TreeNode invertTree(TreeNode root) { // Main method to invert tree

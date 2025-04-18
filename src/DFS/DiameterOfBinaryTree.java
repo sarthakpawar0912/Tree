@@ -6,7 +6,7 @@ public class DiameterOfBinaryTree { // Class for computing tree diameter
     static class TreeNode {
         int val;
         TreeNode left; // Left child
-        TreeNode right; // Right child
+        TreeNode right;
 
         TreeNode() {}
 

@@ -44,7 +44,7 @@ public class DiameterOfBinaryTree { // Class for computing tree diameter
         return Math.max(leftHeight, rightHeight) + 1; // Return height (edges to deepest leaf)
     } // Summary: Computes height and updates diameter via DFS.
 
-    // Main function to test diameter computation
+
     public static void main(String[] args) { // Entry point for testing
         DiameterOfBinaryTree solution = new DiameterOfBinaryTree(); // Creates instance
 

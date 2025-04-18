@@ -61,5 +61,5 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
         solution.flatten(root2);
         System.out.println("Output: []"); // Expected empty list
         // Note: Empty tree remains unchanged
-    } // Summary: Tests tree flattening with problem examples.
+    }
 }

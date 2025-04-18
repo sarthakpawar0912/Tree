@@ -2,7 +2,7 @@ package DFS;
 
 public class DiameterOfBinaryTree { // Class for computing tree diameter
 
-    // Definition for a binary tree node
+
     static class TreeNode { // Simple node structure
         int val; // Node value
         TreeNode left; // Left child

@@ -1,4 +1,4 @@
-package DFS; // Organizes class in package
+package DFS;
 
 public class DiameterOfBinaryTree { // Class for computing tree diameter
 

@@ -41,7 +41,7 @@ public class InvertBinaryTree {
         return root; // Return root of inverted tree
     } // Summary: Inverts tree using DFS (O(n) time, n=nodes).
 
-    // Main function to test tree inversion
+
     public static void main(String[] args) { // Entry point for testing
         InvertBinaryTree solution = new InvertBinaryTree(); // Creates instance
 

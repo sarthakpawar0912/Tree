@@ -19,7 +19,7 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Flattens binary tree to linked list in-place using iterative approach
     public void flatten(TreeNode root) { // Main method to flatten tree

@@ -5,7 +5,7 @@ public class ConvertSortedArraytoBinarySearchTree { // Class for converting sort
 
     static class TreeNode { // Simple node structure
         int val;
-        TreeNode left; // Left child
+        TreeNode left;
         TreeNode right;
 
         TreeNode() {} // Default constructor

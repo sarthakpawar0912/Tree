@@ -62,5 +62,5 @@ public class DiameterOfBinaryTree { // Class for computing tree diameter
         TreeNode root2 = new TreeNode(1);
         root2.left = new TreeNode(2);
         System.out.println("Output: " + solution.diameterOfBinaryTree(root2)); // Expected: 1
-    } // Summary: Tests diameter computation with problem examples.
+    }
 }

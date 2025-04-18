@@ -44,8 +44,8 @@ public class ConvertSortedArraytoBinarySearchTree { // Class for converting sort
         return root; // Return root of subtree
     } // Summary: Recursively builds balanced BST using DFS.
 
-    // Main function to test BST construction
-    public static void main(String[] args) { // Entry point for testing
+
+     public static void main(String[] args) { // Entry point for testing
         ConvertSortedArraytoBinarySearchTree solution = new ConvertSortedArraytoBinarySearchTree(); // Creates instance
 
         // Test Case 1: Example 1 - [-10,-3,0,5,9]

@@ -19,7 +19,7 @@ public class ConvertSortedArraytoBinarySearchTree { // Class for converting sort
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Converts sorted array to height-balanced BST
     public TreeNode sortedArrayToBST(int[] nums) { // Main method to build BST

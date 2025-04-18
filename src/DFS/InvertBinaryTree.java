@@ -7,7 +7,7 @@ public class InvertBinaryTree {
 
 
     static class TreeNode {
-        int val; // Node value
+        int val;
         TreeNode left;
         TreeNode right;
 

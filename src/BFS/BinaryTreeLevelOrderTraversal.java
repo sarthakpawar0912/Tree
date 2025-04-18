@@ -1,11 +1,11 @@
-package Examples;
+package BFS;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class LevelOrderBottom { // Class for bottom-up level order traversal
+public class BinaryTreeLevelOrderTraversal {
 
 
     static class TreeNode { // Simple node structure
@@ -18,11 +18,11 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
             this.left = null; // No left child
             this.right = null; // No right child
         } // Summary: Creates node with value.
-    }
+    } // Summary: Represents a binary tree node.
 
-    // Returns bottom-up level order traversal
-    public List<List<Integer>> levelOrderBottom(TreeNode root) { // Main traversal method
-        List<List<Integer>> result = new ArrayList<>(); // Stores levels (bottom to top)
+    // Returns level order traversal as list of lists
+    public List<List<Integer>> levelOrder(TreeNode root) { // Main traversal method
+        List<List<Integer>> result = new ArrayList<>(); // Stores levels
 
         if (root == null) { // Empty tree
             return result;
@@ -31,29 +31,29 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
         Queue<TreeNode> queue = new LinkedList<>(); // Queue for BFS
         queue.offer(root); // Starts with root
 
-        while (!queue.isEmpty()) { // Processes until queue is empty
+        while (!queue.isEmpty()) { // Processes until no nodes left
             int levelSize = queue.size(); // Nodes in current level
             List<Integer> level = new ArrayList<>(); // Values in current level
 
             for (int i = 0; i < levelSize; i++) { // Processes all nodes in level
-                TreeNode node = queue.poll(); // Gets next node
-                level.add(node.val); // Adds value to level
+                TreeNode currentNode = queue.poll(); // Gets next node
+                level.add(currentNode.val); // Adds value to level
 
-                if (node.left != null) { // If left child exists
-                    queue.offer(node.left); // Adds to queue
+                if (currentNode.left != null) { // If left child exists
+                    queue.offer(currentNode.left); // Adds to queue
                 }
-                if (node.right != null) { // If right child exists
-                    queue.offer(node.right); // Adds to queue
+                if (currentNode.right != null) { // If right child exists
+                    queue.offer(currentNode.right); // Adds to queue
                 }
             }
-            result.add(0, level); // Prepends level to result for bottom-up order
+            result.add(level); // Adds level to result
         }
-        return result; // Returns levels from leaves to root
-    } // Summary: Traverses tree bottom-up using BFS (O(n) time, n=nodes).
+        return result; // Returns all levels
+    } // Summary: Traverses tree level by level using BFS (O(n) time, n=nodes).
 
 
     public static void main(String[] args) { // Entry point for testing
-        LevelOrderBottom solution = new LevelOrderBottom(); // Creates instance
+        BinaryTreeLevelOrderTraversal solution = new BinaryTreeLevelOrderTraversal(); // Creates instance
 
         // Test Case 1: Example 1 - [3,9,20,null,null,15,7]
         System.out.println("Test Case 1:");
@@ -62,16 +62,16 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
         root1.right = new TreeNode(20); // Level 1 right
         root1.right.left = new TreeNode(15); // Level 2 left
         root1.right.right = new TreeNode(7); // Level 2 right
-        System.out.println("Output: " + solution.levelOrderBottom(root1)); // Expected: [[15,7],[9,20],[3]]
+        System.out.println("Output: " + solution.levelOrder(root1)); // Expected: [[3],[9,20],[15,7]]
 
         // Test Case 2: Example 2 - [1]
         System.out.println("\nTest Case 2:");
         TreeNode root2 = new TreeNode(1); // Single node
-        System.out.println("Output: " + solution.levelOrderBottom(root2)); // Expected: [[1]]
+        System.out.println("Output: " + solution.levelOrder(root2)); // Expected: [[1]]
 
         // Test Case 3: Example 3 - []
         System.out.println("\nTest Case 3:");
         TreeNode root3 = null; // Empty tree
-        System.out.println("Output: " + solution.levelOrderBottom(root3)); // Expected: []
+        System.out.println("Output: " + solution.levelOrder(root3)); // Expected: []
     }
 }

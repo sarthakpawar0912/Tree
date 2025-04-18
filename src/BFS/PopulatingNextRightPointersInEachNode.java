@@ -1,4 +1,4 @@
-package Examples;
+package BFS;
 
 public class PopulatingNextRightPointersInEachNode { // Class for populating next pointers
 

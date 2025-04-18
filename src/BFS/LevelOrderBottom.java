@@ -1,11 +1,12 @@
-package Examples;
+package BFS;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class AverageOfLevelsInBinaryTree {
+public class LevelOrderBottom { // Class for bottom-up level order traversal
+
 
     static class TreeNode { // Simple node structure
         int val; // Node value
@@ -19,9 +20,9 @@ public class AverageOfLevelsInBinaryTree {
         } // Summary: Creates node with value.
     }
 
-    // Returns average value of nodes at each level
-    public List<Double> averageOfLevels(TreeNode root) { // Main method for averages
-        List<Double> result = new ArrayList<>(); // Stores level averages
+    // Returns bottom-up level order traversal
+    public List<List<Integer>> levelOrderBottom(TreeNode root) { // Main traversal method
+        List<List<Integer>> result = new ArrayList<>(); // Stores levels (bottom to top)
 
         if (root == null) { // Empty tree
             return result;
@@ -32,11 +33,11 @@ public class AverageOfLevelsInBinaryTree {
 
         while (!queue.isEmpty()) { // Processes until queue is empty
             int levelSize = queue.size(); // Nodes in current level
-            double levelSum = 0; // Sum of values in level
+            List<Integer> level = new ArrayList<>(); // Values in current level
 
-            for (int i = 0; i < levelSize; i++) { // Processes level nodes
+            for (int i = 0; i < levelSize; i++) { // Processes all nodes in level
                 TreeNode node = queue.poll(); // Gets next node
-                levelSum += node.val; // Adds value to sum
+                level.add(node.val); // Adds value to level
 
                 if (node.left != null) { // If left child exists
                     queue.offer(node.left); // Adds to queue
@@ -45,14 +46,14 @@ public class AverageOfLevelsInBinaryTree {
                     queue.offer(node.right); // Adds to queue
                 }
             }
-            result.add(levelSum / levelSize); // Adds average to result
+            result.add(0, level); // Prepends level to result for bottom-up order
         }
-        return result; // Returns averages
-    } // Summary: Computes level averages using BFS (O(n) time, n=nodes).
+        return result; // Returns levels from leaves to root
+    } // Summary: Traverses tree bottom-up using BFS (O(n) time, n=nodes).
 
 
     public static void main(String[] args) { // Entry point for testing
-        AverageOfLevelsInBinaryTree solution = new AverageOfLevelsInBinaryTree(); // Creates instance
+        LevelOrderBottom solution = new LevelOrderBottom(); // Creates instance
 
         // Test Case 1: Example 1 - [3,9,20,null,null,15,7]
         System.out.println("Test Case 1:");
@@ -61,15 +62,16 @@ public class AverageOfLevelsInBinaryTree {
         root1.right = new TreeNode(20); // Level 1 right
         root1.right.left = new TreeNode(15); // Level 2 left
         root1.right.right = new TreeNode(7); // Level 2 right
-        System.out.println("Output: " + solution.averageOfLevels(root1)); // Expected: [3.0, 14.5, 11.0]
+        System.out.println("Output: " + solution.levelOrderBottom(root1)); // Expected: [[15,7],[9,20],[3]]
 
-        // Test Case 2: Example 2 - [3,9,20,15,7]
+        // Test Case 2: Example 2 - [1]
         System.out.println("\nTest Case 2:");
-        TreeNode root2 = new TreeNode(3); // Root
-        root2.left = new TreeNode(9); // Level 1 left
-        root2.right = new TreeNode(20); // Level 1 right
-        root2.left.left = new TreeNode(15); // Level 2 left
-        root2.left.right = new TreeNode(7); // Level 2 right
-        System.out.println("Output: " + solution.averageOfLevels(root2)); // Expected: [3.0, 14.5, 11.0]
+        TreeNode root2 = new TreeNode(1); // Single node
+        System.out.println("Output: " + solution.levelOrderBottom(root2)); // Expected: [[1]]
+
+        // Test Case 3: Example 3 - []
+        System.out.println("\nTest Case 3:");
+        TreeNode root3 = null; // Empty tree
+        System.out.println("Output: " + solution.levelOrderBottom(root3)); // Expected: []
     }
 }

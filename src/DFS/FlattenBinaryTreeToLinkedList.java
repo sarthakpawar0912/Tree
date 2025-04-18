@@ -39,8 +39,8 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
         } // Summary: Flattens tree into pre-order linked list (O(n) time, O(1) space).
     } // Summary: Transforms tree to right-linked list in pre-order.
 
-    // Main function to test tree flattening
-    public static void main(String[] args) { // Entry point for testing
+
+   public static void main(String[] args) { // Entry point for testing
         FlattenBinaryTreeToLinkedList solution = new FlattenBinaryTreeToLinkedList(); // Creates instance
 
         // Test Case 1: Example 1 - [1,2,5,3,4,null,6]

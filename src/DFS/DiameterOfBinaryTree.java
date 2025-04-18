@@ -19,7 +19,7 @@ public class DiameterOfBinaryTree { // Class for computing tree diameter
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     private int diameter = 0; // Tracks maximum diameter (edges)
 

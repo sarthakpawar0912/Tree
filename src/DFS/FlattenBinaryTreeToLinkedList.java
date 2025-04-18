@@ -8,7 +8,7 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
 
         TreeNode(int val) { // Constructor with value
             this.val = val;

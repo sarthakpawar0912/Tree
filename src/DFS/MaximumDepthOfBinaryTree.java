@@ -51,5 +51,5 @@ public class MaximumDepthOfBinaryTree { // Class for computing max depth
         TreeNode root2 = new TreeNode(1);
         root2.right = new TreeNode(2);
         System.out.println("Output: " + solution.maxDepth(root2)); // Expected: 2
-    } // Summary: Tests max depth with problem examples.
+    }
 }

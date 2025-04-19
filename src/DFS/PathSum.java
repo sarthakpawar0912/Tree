@@ -37,7 +37,7 @@ public class PathSum { // Class for checking path sum
                 hasPathSum(root.right, targetSum - root.val);
     } // Summary: Checks path sum using DFS (O(n) time, n=nodes).
 
-    // Main function to test path sum checking
+
     public static void main(String[] args) { // Entry point for testing
         PathSum solution = new PathSum(); // Creates instance
 

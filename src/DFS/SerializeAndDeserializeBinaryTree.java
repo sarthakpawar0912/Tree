@@ -22,7 +22,7 @@ public class SerializeAndDeserializeBinaryTree { // Class for serializing/deseri
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Encodes a tree to a single string
     public String serialize(TreeNode root) { // Serializes tree to string

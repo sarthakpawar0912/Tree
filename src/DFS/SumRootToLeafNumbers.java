@@ -1,4 +1,4 @@
-package DFS;// Organizes class in package, consistent with previous submissions
+package DFS;
 
 public class SumRootToLeafNumbers { // Class for summing root-to-leaf numbers
 

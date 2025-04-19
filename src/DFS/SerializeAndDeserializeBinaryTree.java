@@ -6,10 +6,10 @@ import java.util.List;
 public class SerializeAndDeserializeBinaryTree { // Class for serializing/deserializing tree
 
 
-    public class TreeNode { // Simple node structure (non-static as provided)
-        int val; // Node value
-        TreeNode left; // Left child
-        TreeNode right; // Right child
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
         TreeNode() {} // Default constructor
 

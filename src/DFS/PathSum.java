@@ -24,7 +24,7 @@ public class PathSum { // Class for checking path sum
     // Checks if there is a root-to-leaf path with sum equal to targetSum
     public boolean hasPathSum(TreeNode root, int targetSum) { // Main method to check path sum
         if (root == null) {
-            return false; // No valid path
+            return false;
         }
 
         // Check if node is a leaf (no children)

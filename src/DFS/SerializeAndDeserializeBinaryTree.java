@@ -11,7 +11,7 @@ public class SerializeAndDeserializeBinaryTree { // Class for serializing/deseri
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
 
         TreeNode(int val) { // Constructor with value
             this.val = val;

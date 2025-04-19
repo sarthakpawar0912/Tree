@@ -5,8 +5,8 @@ public class MaximumDepthOfBinaryTree { // Class for computing max depth
 
     static class TreeNode {
         int val;
-        TreeNode left; // Left child
-        TreeNode right; // Right child
+        TreeNode left;
+        TreeNode right;
 
         TreeNode() {} // Default constructor
 

@@ -8,9 +8,9 @@ public class SumRootToLeafNumbers { // Class for summing root-to-leaf numbers
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
 
-        TreeNode(int val) { // Constructor with value
+        TreeNode(int val) {
             this.val = val;
         }
 

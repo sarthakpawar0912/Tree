@@ -71,5 +71,5 @@ public class PathSum { // Class for checking path sum
         int targetSum3 = 0;
         System.out.println("Output: " + solution.hasPathSum(root3, targetSum3)); // Expected: false
         // Note: Empty tree has no paths
-    } // Summary: Tests path sum checking with problem examples.
+    }
 }

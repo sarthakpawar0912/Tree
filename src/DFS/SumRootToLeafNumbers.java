@@ -44,7 +44,7 @@ public class SumRootToLeafNumbers { // Class for summing root-to-leaf numbers
         return helper(node.left, sum) + helper(node.right, sum);
     } // Summary: Uses DFS to build and sum path numbers.
 
-    // Main function to test sum computation
+
     public static void main(String[] args) { // Entry point for testing
         SumRootToLeafNumbers solution = new SumRootToLeafNumbers(); // Creates instance
 

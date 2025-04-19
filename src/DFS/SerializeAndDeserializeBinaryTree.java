@@ -68,8 +68,8 @@ public class SerializeAndDeserializeBinaryTree { // Class for serializing/deseri
         return node; // Return constructed node
     } // Summary: Reconstructs tree using preorder order and index.
 
-    // Main function to test serialization and deserialization
-    public static void main(String[] args) { // Entry point for testing
+
+     public static void main(String[] args) { // Entry point for testing
         SerializeAndDeserializeBinaryTree solution = new SerializeAndDeserializeBinaryTree(); // Creates instance
 
         // Test Case 1: Example 1 - [1,2,3,null,null,4,5]

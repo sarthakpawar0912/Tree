@@ -1,4 +1,4 @@
-package DFS; // Organizes class in package, consistent with previous submissions
+package DFS;
 
 public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
 

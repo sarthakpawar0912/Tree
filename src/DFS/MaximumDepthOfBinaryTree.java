@@ -19,7 +19,7 @@ public class MaximumDepthOfBinaryTree { // Class for computing max depth
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Returns the maximum depth of the binary tree
     public int maxDepth(TreeNode root) { // Main method to compute depth

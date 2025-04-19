@@ -8,7 +8,7 @@ public class PathSum { // Class for checking path sum
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
 
         TreeNode(int val) { // Constructor with value
             this.val = val;

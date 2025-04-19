@@ -93,5 +93,5 @@ public class SerializeAndDeserializeBinaryTree { // Class for serializing/deseri
         System.out.println("Serialized: " + serialized2); // Expected: ""
         System.out.println("Deserialized Output: []"); // Expected empty tree
         // Note: Empty tree correctly handled
-    } // Summary: Tests serialization/deserialization with problem examples.
+    }
 }

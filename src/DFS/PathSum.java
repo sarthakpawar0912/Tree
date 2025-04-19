@@ -19,7 +19,7 @@ public class PathSum { // Class for checking path sum
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Checks if there is a root-to-leaf path with sum equal to targetSum
     public boolean hasPathSum(TreeNode root, int targetSum) { // Main method to check path sum

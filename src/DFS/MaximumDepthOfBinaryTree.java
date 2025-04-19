@@ -33,7 +33,7 @@ public class MaximumDepthOfBinaryTree { // Class for computing max depth
         return Math.max(leftDepth, rightDepth) + 1; // Max depth plus current node
     } // Summary: Computes max depth using DFS (O(n) time, n=nodes).
 
-    // Main function to test max depth computation
+
     public static void main(String[] args) { // Entry point for testing
         MaximumDepthOfBinaryTree solution = new MaximumDepthOfBinaryTree(); // Creates instance
 

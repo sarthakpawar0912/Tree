@@ -1,4 +1,4 @@
-package DFS;// Organizes class in package, consistent with previous submissions
+package DFS;
 
 public class PathSum { // Class for checking path sum
 

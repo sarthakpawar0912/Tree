@@ -75,5 +75,5 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
         root2.right.right = solution.new TreeNode(7);
         System.out.println("Output: " + solution.maxPathSum(root2)); // Expected: 42
         // Note: Optimal path 15->20->7 sums to 15+20+7=42
-    } // Summary: Tests max path sum computation with problem examples.
+    }
 }

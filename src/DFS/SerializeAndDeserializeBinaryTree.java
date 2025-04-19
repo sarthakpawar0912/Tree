@@ -1,12 +1,11 @@
 package DFS;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class SerializeAndDeserializeBinaryTree { // Class for serializing/deserializing tree
 
-    // Definition for a binary tree node
+
     public class TreeNode { // Simple node structure (non-static as provided)
         int val; // Node value
         TreeNode left; // Left child

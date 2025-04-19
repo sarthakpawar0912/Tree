@@ -4,8 +4,9 @@ import java.util.Arrays; // For Arrays.copyOfRange
 
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal { // Class for building tree from traversals
 
-    // Definition for a binary tree node
+
     public class TreeNode { // Simple node structure (non-static as provided)
+
         int val; // Node value
         TreeNode left; // Left child
         TreeNode right; // Right child

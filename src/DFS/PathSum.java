@@ -6,7 +6,7 @@ public class PathSum { // Class for checking path sum
     public class TreeNode {
         int val;
         TreeNode left;
-        TreeNode right; // Right child
+        TreeNode right;
 
         TreeNode() {} // Default constructor
 

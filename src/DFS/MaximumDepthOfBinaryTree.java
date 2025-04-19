@@ -10,7 +10,7 @@ public class MaximumDepthOfBinaryTree { // Class for computing max depth
 
         TreeNode() {}
 
-        TreeNode(int val) { // Constructor with value
+        TreeNode(int val) {
             this.val = val;
         }
 

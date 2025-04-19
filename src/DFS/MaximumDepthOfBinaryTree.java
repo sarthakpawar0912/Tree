@@ -1,10 +1,10 @@
-package DFS;// Organizes class in package
+package DFS;
 
 public class MaximumDepthOfBinaryTree { // Class for computing max depth
 
-    // Definition for a binary tree node
-    static class TreeNode { // Simple node structure
-        int val; // Node value
+
+    static class TreeNode {
+        int val;
         TreeNode left; // Left child
         TreeNode right; // Right child
 

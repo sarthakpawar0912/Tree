@@ -3,9 +3,9 @@ package DFS;
 public class PathSum { // Class for checking path sum
 
 
-    public class TreeNode { // Simple node structure (non-static as provided)
-        int val; // Node value
-        TreeNode left; // Left child
+    public class TreeNode {
+        int val;
+        TreeNode left;
         TreeNode right; // Right child
 
         TreeNode() {} // Default constructor

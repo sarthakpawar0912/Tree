@@ -5,7 +5,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
 
     public class TreeNode {
         int val;
-        TreeNode left; // Left child
+        TreeNode left;
         TreeNode right; // Right child
 
         TreeNode() {} // Default constructor

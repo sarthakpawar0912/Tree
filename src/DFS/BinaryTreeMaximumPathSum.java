@@ -19,7 +19,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Global variable to track maximum path sum
     int ans = Integer.MIN_VALUE;

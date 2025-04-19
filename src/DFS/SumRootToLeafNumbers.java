@@ -2,11 +2,11 @@ package DFS;
 
 public class SumRootToLeafNumbers { // Class for summing root-to-leaf numbers
 
-    // Definition for a binary tree node
+
     public class TreeNode { // Simple node structure (non-static as provided)
-        int val; // Node value
-        TreeNode left; // Left child
-        TreeNode right; // Right child
+        int val;
+        TreeNode left;
+        TreeNode right;
 
         TreeNode() {} // Default constructor
 

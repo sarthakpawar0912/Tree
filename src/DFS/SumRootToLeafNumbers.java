@@ -19,7 +19,7 @@ public class SumRootToLeafNumbers { // Class for summing root-to-leaf numbers
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Computes the sum of all root-to-leaf path numbers
     public int sumNumbers(TreeNode root) { // Main method to sum numbers
@@ -28,8 +28,8 @@ public class SumRootToLeafNumbers { // Class for summing root-to-leaf numbers
 
     // Helper method to build and sum path numbers recursively
     int helper(TreeNode node, int sum) { // Builds numbers along paths
-        if (node == null) { // Empty node
-            return 0; // No contribution to sum
+        if (node == null) {
+            return 0;
         }
 
         // Build number by appending current digit

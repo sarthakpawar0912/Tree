@@ -3,7 +3,7 @@ package DFS;
 public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
 
 
-    public class TreeNode { // Simple node structure (non-static as provided)
+    public class TreeNode {
         int val; // Node value
         TreeNode left; // Left child
         TreeNode right; // Right child

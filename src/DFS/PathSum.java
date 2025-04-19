@@ -2,7 +2,7 @@ package DFS;
 
 public class PathSum { // Class for checking path sum
 
-    // Definition for a binary tree node
+
     public class TreeNode { // Simple node structure (non-static as provided)
         int val; // Node value
         TreeNode left; // Left child

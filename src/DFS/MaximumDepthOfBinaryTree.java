@@ -8,7 +8,7 @@ public class MaximumDepthOfBinaryTree { // Class for computing max depth
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
 
         TreeNode(int val) { // Constructor with value
             this.val = val;

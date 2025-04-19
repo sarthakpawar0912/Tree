@@ -54,8 +54,8 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
         return Math.max(left, right) + node.val;
     } // Summary: Uses DFS to compute and track max path sum.
 
-    // Main function to test max path sum computation
-    public static void main(String[] args) { // Entry point for testing
+
+     public static void main(String[] args) { // Entry point for testing
         BinaryTreeMaximumPathSum solution = new BinaryTreeMaximumPathSum(); // Creates instance
 
         // Test Case 1: Example 1 - [1,2,3]

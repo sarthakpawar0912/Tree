@@ -10,7 +10,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
 
         TreeNode() {}
 
-        TreeNode(int val) { // Constructor with value
+        TreeNode(int val) {
             this.val = val;
         }
 

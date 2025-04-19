@@ -65,5 +65,5 @@ public class SumRootToLeafNumbers { // Class for summing root-to-leaf numbers
         root2.left.right = solution.new TreeNode(1);
         System.out.println("Output: " + solution.sumNumbers(root2)); // Expected: 1026
         // Note: Paths 4->9->5 (495), 4->9->1 (491), 4->0 (40); sum = 495 + 491 + 40 = 1026
-    } // Summary: Tests sum computation with problem examples.
+    }
 }

@@ -51,7 +51,7 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal { // Class for b
         return node; // Return constructed tree
     } // Summary: Builds tree using DFS (O(n²) time, n=length).
 
-    // Main function to test tree construction
+
     public static void main(String[] args) { // Entry point for testing
         ConstructBinaryTreeFromPreorderAndInorderTraversal solution =
                 new ConstructBinaryTreeFromPreorderAndInorderTraversal(); // Creates instance

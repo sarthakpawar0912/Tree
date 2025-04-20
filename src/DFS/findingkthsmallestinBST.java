@@ -9,7 +9,7 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
 
         TreeNode(int val) { // Constructor with value
             this.val = val;

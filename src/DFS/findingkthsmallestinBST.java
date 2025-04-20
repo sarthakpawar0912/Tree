@@ -20,7 +20,7 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Global counter to track nodes visited during in-order traversal
     int count = 0;

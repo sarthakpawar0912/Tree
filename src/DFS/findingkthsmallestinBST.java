@@ -78,5 +78,5 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
         int k2 = 3;
         System.out.println("Output: " + solution.kthSmallest(root2, k2)); // Expected: 3
         // Note: In-order [1,2,3,4,5,6], 3rd smallest is 3
-    } // Summary: Tests kth smallest computation with problem examples.
+    }
 }

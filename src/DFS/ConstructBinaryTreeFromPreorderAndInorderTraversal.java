@@ -6,7 +6,7 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal { // Class for b
 
 
     public class TreeNode {
-        int val; // Node value
+        int val;
         TreeNode left; // Left child
         TreeNode right; // Right child
 

@@ -6,7 +6,7 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
     public class TreeNode {
 
         int val;
-        TreeNode left; // Left child
+        TreeNode left;
         TreeNode right; // Right child
 
         TreeNode() {} // Default constructor

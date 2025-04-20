@@ -1,4 +1,4 @@
-package DFS; // Organizes class in package, consistent with previous submissions
+package DFS;
 
 public class findingkthsmallestinBST { // Class for finding kth smallest in BST
 

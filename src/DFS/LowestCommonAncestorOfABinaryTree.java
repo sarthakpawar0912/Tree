@@ -3,7 +3,8 @@ package DFS;
 public class LowestCommonAncestorOfABinaryTree { // Class for finding LCA
 
 
-    static class TreeNode { // Simple node structure
+    static class TreeNode {
+
         int val; // Node value
         TreeNode left; // Left child
         TreeNode right; // Right child

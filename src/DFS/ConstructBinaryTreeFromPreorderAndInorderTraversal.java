@@ -71,5 +71,5 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal { // Class for b
         TreeNode result2 = solution.buildTree(preorder2, inorder2);
         System.out.println("Output: [-1]"); // Expected level-order
         // Note: Tree constructed as single node -1
-    } // Summary: Tests tree construction with problem examples.
+    }
 }

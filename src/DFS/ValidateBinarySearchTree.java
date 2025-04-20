@@ -19,7 +19,7 @@ public class ValidateBinarySearchTree {
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Determines if the binary tree is a valid BST
     public boolean isValidBST(TreeNode root) { // Main method to validate BST

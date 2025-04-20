@@ -3,7 +3,8 @@ package DFS;
 public class findingkthsmallestinBST { // Class for finding kth smallest in BST
 
 
-    public class TreeNode { // Simple node structure (non-static as provided)
+    public class TreeNode {
+
         int val; // Node value
         TreeNode left; // Left child
         TreeNode right; // Right child

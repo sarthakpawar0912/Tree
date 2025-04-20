@@ -84,5 +84,5 @@ public class LowestCommonAncestorOfABinaryTree { // Class for finding LCA
         TreeNode result3 = solution.lowestCommonAncestor(root3, p3, q3);
         System.out.println("Output: " + (result3 != null ? result3.val : null)); // Expected: 1
         // Note: LCA of 1 and 2 is 1 (2 is descendant of 1)
-    } // Summary: Tests LCA computation with problem examples.
+    }
 }

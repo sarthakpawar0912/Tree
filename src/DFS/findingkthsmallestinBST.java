@@ -11,7 +11,7 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
 
         TreeNode() {}
 
-        TreeNode(int val) { // Constructor with value
+        TreeNode(int val) {
             this.val = val;
         }
 

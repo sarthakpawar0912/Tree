@@ -8,7 +8,7 @@ public class ValidateBinarySearchTree {
         TreeNode left; // Left child
         TreeNode right; // Right child
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
 
         TreeNode(int val) { // Constructor with value
             this.val = val;

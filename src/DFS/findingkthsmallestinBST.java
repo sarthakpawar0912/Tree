@@ -53,7 +53,7 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
         return helper(root.right, k); // Return result from right
     } // Summary: Uses in-order traversal to find kth smallest node.
 
-    // Main function to test kth smallest computation
+
     public static void main(String[] args) { // Entry point for testing
         findingkthsmallestinBST solution = new findingkthsmallestinBST(); // Creates instance
 

@@ -1,6 +1,6 @@
 package DFS;
 
-public class SumRootToLeafNumbers { // Class for summing root-to-leaf numbers
+public class SumRootToLeafNumbers {
 
 
     public class TreeNode { // Simple node structure (non-static as provided)

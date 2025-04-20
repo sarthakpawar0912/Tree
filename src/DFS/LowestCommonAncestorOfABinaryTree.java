@@ -45,7 +45,7 @@ public class LowestCommonAncestorOfABinaryTree { // Class for finding LCA
         return left == null ? right : left;
     } // Summary: Finds LCA using DFS (O(n) time, n=nodes).
 
-    // Main function to test LCA computation
+
     public static void main(String[] args) { // Entry point for testing
         LowestCommonAncestorOfABinaryTree solution = new LowestCommonAncestorOfABinaryTree(); // Creates instance
 

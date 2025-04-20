@@ -9,7 +9,7 @@ public class LowestCommonAncestorOfABinaryTree { // Class for finding LCA
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {} // Default constructor
+        TreeNode() {}
 
         TreeNode(int val) { // Constructor with value
             this.val = val;

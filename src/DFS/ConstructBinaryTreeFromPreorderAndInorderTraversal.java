@@ -1,6 +1,6 @@
 package DFS;
 
-import java.util.Arrays; // For Arrays.copyOfRange
+import java.util.Arrays;
 
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal { // Class for building tree from traversals
 

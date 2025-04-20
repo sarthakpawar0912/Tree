@@ -50,8 +50,8 @@ public class ValidateBinarySearchTree {
         return leftTree && rightTree; // Both subtrees must be valid
     } // Summary: Validates BST using DFS with range constraints.
 
-    // Main function to test BST validation
-    public static void main(String[] args) { // Entry point for testing
+
+   public static void main(String[] args) { // Entry point for testing
         ValidateBinarySearchTree solution = new ValidateBinarySearchTree(); // Creates instance
 
         // Test Case 1: Example 1 - [2,1,3]

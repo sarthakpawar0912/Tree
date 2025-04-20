@@ -10,7 +10,7 @@ public class ValidateBinarySearchTree {
 
         TreeNode() {}
 
-        TreeNode(int val) { // Constructor with value
+        TreeNode(int val) {
             this.val = val;
         }
 

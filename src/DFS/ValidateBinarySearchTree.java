@@ -5,7 +5,7 @@ public class ValidateBinarySearchTree {
 
     public class TreeNode {
         int val;
-        TreeNode left; // Left child
+        TreeNode left;
         TreeNode right; // Right child
 
         TreeNode() {}

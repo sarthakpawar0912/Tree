@@ -71,5 +71,5 @@ public class ValidateBinarySearchTree {
         root2.right.right = solution.new TreeNode(6);
         System.out.println("Output: " + solution.isValidBST(root2)); // Expected: false
         // Note: Tree is invalid (4 in right subtree <= 5)
-    } // Summary: Tests BST validation with problem examples.
+    }
 }

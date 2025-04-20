@@ -5,7 +5,7 @@ public class LowestCommonAncestorOfABinaryTree { // Class for finding LCA
 
     static class TreeNode {
 
-        int val; // Node value
+        int val;
         TreeNode left; // Left child
         TreeNode right; // Right child
 

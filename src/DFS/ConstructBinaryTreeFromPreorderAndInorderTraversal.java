@@ -8,7 +8,7 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal { // Class for b
     public class TreeNode {
         int val;
         TreeNode left;
-        TreeNode right; // Right child
+        TreeNode right;
 
         TreeNode() {} // Default constructor
 

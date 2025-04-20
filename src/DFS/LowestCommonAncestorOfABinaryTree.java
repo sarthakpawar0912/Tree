@@ -20,7 +20,7 @@ public class LowestCommonAncestorOfABinaryTree { // Class for finding LCA
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.
-    } // Summary: Represents a binary tree node.
+    }
 
     // Finds the lowest common ancestor of nodes p and q
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) { // Main method to find LCA

@@ -1,6 +1,6 @@
 package DFS;
 
-public class ValidateBinarySearchTree { // Class for validating BST
+public class ValidateBinarySearchTree {
 
 
     public class TreeNode { // Simple node structure (non-static as provided)

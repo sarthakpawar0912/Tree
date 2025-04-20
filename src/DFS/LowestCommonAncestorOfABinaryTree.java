@@ -2,7 +2,7 @@ package DFS;
 
 public class LowestCommonAncestorOfABinaryTree { // Class for finding LCA
 
-    // Definition for a binary tree node
+
     static class TreeNode { // Simple node structure
         int val; // Node value
         TreeNode left; // Left child

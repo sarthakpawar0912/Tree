@@ -10,7 +10,7 @@ public class BinaryTreeZigzagLevelOrderTraversal { // Class for zigzag traversal
 
     static class TreeNode {
         int val;
-        TreeNode left; // Left child
+        TreeNode left;
         TreeNode right; // Right child
 
         TreeNode(int val) { // Constructor

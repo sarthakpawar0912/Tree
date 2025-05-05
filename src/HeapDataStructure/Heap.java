@@ -1,6 +1,6 @@
 package HeapDataStructure;
 
-import java.util.ArrayList; // For dynamic array storage
+import java.util.ArrayList;
 
 // Generic Min-Heap implementation supporting insert, remove, and heap sort
 public class Heap<T extends Comparable<T>> { // T must be comparable for ordering

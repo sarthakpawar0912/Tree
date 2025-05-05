@@ -22,7 +22,7 @@ public class SymmetricTree {
             this.left = left;
             this.right = right;
         }
-    } // Summary: Represents a binary tree node.
+    }
 
     // Checks if tree is symmetric (mirror of itself)
     public boolean isSymmetric(TreeNode root) { // Main method to check symmetry

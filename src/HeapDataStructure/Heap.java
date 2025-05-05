@@ -102,7 +102,7 @@ public class Heap<T extends Comparable<T>> { // T must be comparable for orderin
         return data; // Return sorted list
     } // Summary: Sorts heap elements in ascending order (O(n log n)).
 
-    // Main function to test heap operations and heap sort
+
     public static void main(String[] args) throws Exception { // Entry point for testing
         // Test Case 1: Heap with [4, 10, 3, 5, 1]
         System.out.println("Test Case 1:");

@@ -8,7 +8,7 @@ import java.util.Queue;
 public class LevelOrderBottom { // Class for bottom-up level order traversal
 
 
-    static class TreeNode { // Simple node structure
+    static class TreeNode {
         int val; // Node value
         TreeNode left; // Left child
         TreeNode right; // Right child

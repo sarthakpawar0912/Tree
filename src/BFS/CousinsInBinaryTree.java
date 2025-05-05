@@ -7,7 +7,7 @@ public class CousinsInBinaryTree { // Class for checking cousins
 
     static class TreeNode {
         int val;
-        TreeNode left; // Left child
+        TreeNode left;
         TreeNode right; // Right child
 
         TreeNode() {}

@@ -17,7 +17,7 @@ public class SymmetricTree {
             this.val = val;
         }
 
-        TreeNode(int val, TreeNode left, TreeNode right) { // Constructor with children
+        TreeNode(int val, TreeNode left, TreeNode right) {
             this.val = val;
             this.left = left;
             this.right = right;

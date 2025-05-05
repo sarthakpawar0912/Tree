@@ -8,7 +8,7 @@ import java.util.Deque;
 public class BinaryTreeZigzagLevelOrderTraversal { // Class for zigzag traversal
 
 
-    static class TreeNode { // Simple node structure
+    static class TreeNode {
         int val; // Node value
         TreeNode left; // Left child
         TreeNode right; // Right child

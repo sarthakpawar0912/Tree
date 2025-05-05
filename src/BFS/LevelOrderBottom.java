@@ -17,7 +17,7 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
             this.val = val;
             this.left = null;
             this.right = null;
-        } // Summary: Creates node with value.
+        }
     }
 
     // Returns bottom-up level order traversal

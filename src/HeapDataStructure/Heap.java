@@ -1,4 +1,4 @@
-package HeapDataStructure; // Organizes class in package for heap-related code
+package HeapDataStructure;
 
 import java.util.ArrayList; // For dynamic array storage
 

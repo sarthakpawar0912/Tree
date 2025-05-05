@@ -21,7 +21,7 @@ public class SymmetricTree {
             this.val = val;
             this.left = left;
             this.right = right;
-        } // Summary: Creates node with value and optional children.
+        }
     } // Summary: Represents a binary tree node.
 
     // Checks if tree is symmetric (mirror of itself)

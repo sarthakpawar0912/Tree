@@ -13,7 +13,7 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
         TreeNode left;
         TreeNode right;
 
-        TreeNode(int val) { // Constructor
+        TreeNode(int val) {
             this.val = val; // Sets value
             this.left = null; // No left child
             this.right = null; // No right child

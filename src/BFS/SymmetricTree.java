@@ -3,7 +3,7 @@ package BFS;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class SymmetricTree { // Class for checking symmetric tree
+public class SymmetricTree {
 
     // Definition for a binary tree node
     static class TreeNode { // Simple node structure

@@ -9,7 +9,7 @@ public class SymmetricTree {
     static class TreeNode {
         int val;
         TreeNode left;
-        TreeNode right; // Right child
+        TreeNode right;
 
         TreeNode() {} // Default constructor
 

@@ -57,7 +57,7 @@ public class SymmetricTree {
         return true; // All pairs symmetric
     } // Summary: Checks if tree is symmetric using BFS (O(n) time, n=nodes).
 
-    // Main function to test symmetric tree check
+
     public static void main(String[] args) { // Entry point for testing
         SymmetricTree solution = new SymmetricTree(); // Creates instance
 

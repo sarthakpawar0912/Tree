@@ -9,7 +9,7 @@ public class LevelOrderBottom { // Class for bottom-up level order traversal
 
 
     static class TreeNode {
-        int val; // Node value
+        int val;
         TreeNode left; // Left child
         TreeNode right; // Right child
 

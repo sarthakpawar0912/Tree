@@ -155,6 +155,7 @@ public class HashTableMain {
         else {
 
             System.out.println("Name Found: " + name);
+
         }
 
         // Close the scanner to prevent resource leaks

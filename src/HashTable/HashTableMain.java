@@ -74,6 +74,7 @@ class HashTable {
 
             // If key exists, update its value and return
             if (pair.key == key) {
+
                 pair.value = value;
                 return;
             }

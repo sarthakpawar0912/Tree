@@ -145,6 +145,7 @@ public class HashTableMain {
         // Retrieve the name associated with the roll number
         String name = ht.get(roll);
 
+
         // Check if the name was found and print the result
         if (name == null) {
             System.out.println("No such roll");

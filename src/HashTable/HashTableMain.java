@@ -9,6 +9,7 @@ class HashTable {
     static class Pair {
 
         int key; // Key represents the roll number
+
         String value; // Value represents the student's name
 
         // Constructor to initialize key-value pair

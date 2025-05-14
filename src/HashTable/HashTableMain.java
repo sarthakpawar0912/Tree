@@ -28,6 +28,7 @@ class HashTable {
             return "Pair{key=" + key + ", value='" + value + "'}";
 
         }
+
     }
 
     // Constant defining the number of slots (buckets) in the hash table

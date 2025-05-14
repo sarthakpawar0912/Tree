@@ -26,6 +26,7 @@ class HashTable {
         public String toString() {
 
             return "Pair{key=" + key + ", value='" + value + "'}";
+
         }
     }
 

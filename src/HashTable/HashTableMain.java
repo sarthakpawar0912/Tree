@@ -78,6 +78,7 @@ class HashTable {
                 pair.value = value;
 
                 return;
+
             }
         }
 

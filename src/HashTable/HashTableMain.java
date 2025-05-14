@@ -91,6 +91,7 @@ class HashTable {
 
     // Method to retrieve the value associated with a given key
     public String get(int key) {
+
         // Step 1: Compute the slot for the given key using the hash function
         int slot = hash(key);
 

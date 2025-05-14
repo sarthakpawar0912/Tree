@@ -16,6 +16,7 @@ class HashTable {
         public Pair(int key, String value) {
 
             this.key = key;
+
             this.value = value;
         }
 

@@ -107,6 +107,7 @@ class HashTable {
             if (pair.key == key) {
 
                 return pair.value;
+
             }
         }
 

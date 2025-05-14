@@ -57,6 +57,7 @@ class HashTable {
         // Use modulo to ensure the slot is within [0, SLOTS-1]
         // Math.abs to handle negative keys
         return Math.abs(key % SLOTS);
+
     }
 
     // Method to insert or update a key-value pair in the hash table

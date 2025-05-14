@@ -47,6 +47,7 @@ class HashTable {
         for (int i = 0; i < SLOTS; i++) {
 
             table[i] = new LinkedList<>();
+
         }
     }
 

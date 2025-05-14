@@ -34,8 +34,10 @@ class HashTable {
     // Constant defining the number of slots (buckets) in the hash table
     private static final int SLOTS = 10;
 
+
     // Array of LinkedLists to store key-value pairs (chaining for collision resolution)
     private LinkedList<Pair>[] table;
+
 
     // Constructor to initialize the hash table with empty LinkedLists
     public HashTable() {

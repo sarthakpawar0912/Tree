@@ -105,6 +105,7 @@ class HashTable {
 
             // If key is found, return its associated value
             if (pair.key == key) {
+
                 return pair.value;
             }
         }

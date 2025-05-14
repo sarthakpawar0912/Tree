@@ -18,6 +18,7 @@ class HashTable {
             this.key = key;
 
             this.value = value;
+
         }
 
         // Override toString for readable output when printing pairs

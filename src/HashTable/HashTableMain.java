@@ -139,6 +139,7 @@ public class HashTableMain {
 
         // Prompt user to enter a roll number to search
         System.out.println("Enter roll to find:");
+
         int roll = sc.nextInt();
 
         // Retrieve the name associated with the roll number

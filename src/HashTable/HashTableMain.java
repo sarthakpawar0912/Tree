@@ -41,6 +41,7 @@ class HashTable {
 
     // Constructor to initialize the hash table with empty LinkedLists
     public HashTable() {
+
         table = new LinkedList[SLOTS];
         for (int i = 0; i < SLOTS; i++) {
             table[i] = new LinkedList<>();

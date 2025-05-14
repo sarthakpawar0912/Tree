@@ -128,6 +128,7 @@ public class HashTableMain {
         // Create a new HashTable instance
         HashTable ht = new HashTable();
 
+
         // Insert sample key-value pairs (roll numbers and names)
         ht.put(1, "Sarthak");
         ht.put(2, "Raj");

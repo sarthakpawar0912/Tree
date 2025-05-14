@@ -62,6 +62,7 @@ class HashTable {
 
     // Method to insert or update a key-value pair in the hash table
     public void put(int key, String value) {
+
         // Step 1: Compute the slot for the given key using the hash function
         int slot = hash(key);
 

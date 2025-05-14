@@ -86,6 +86,7 @@ class HashTable {
         Pair pair = new Pair(key, value);
 
         bucket.add(pair);
+
     }
 
     // Method to retrieve the value associated with a given key

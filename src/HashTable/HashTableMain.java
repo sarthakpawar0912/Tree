@@ -53,6 +53,7 @@ class HashTable {
 
     // Custom hash function to map a key to a slot (0 to SLOTS-1)
     private int hash(int key) {
+
         // Use modulo to ensure the slot is within [0, SLOTS-1]
         // Math.abs to handle negative keys
         return Math.abs(key % SLOTS);

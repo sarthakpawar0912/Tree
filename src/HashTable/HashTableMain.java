@@ -71,6 +71,7 @@ class HashTable {
 
         // Step 3: Search for the key in the bucket (linear search)
         for (Pair pair : bucket) {
+
             // If key exists, update its value and return
             if (pair.key == key) {
                 pair.value = value;

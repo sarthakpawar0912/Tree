@@ -84,6 +84,7 @@ class HashTable {
 
         // Step 4: If key is not found, create a new Pair and add it to the bucket
         Pair pair = new Pair(key, value);
+
         bucket.add(pair);
     }
 

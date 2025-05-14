@@ -95,6 +95,7 @@ class HashTable {
         // Step 1: Compute the slot for the given key using the hash function
         int slot = hash(key);
 
+
         // Step 2: Access the bucket (LinkedList) at the computed slot
         LinkedList<Pair> bucket = table[slot];
 

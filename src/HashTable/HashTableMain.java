@@ -43,6 +43,7 @@ class HashTable {
     public HashTable() {
 
         table = new LinkedList[SLOTS];
+
         for (int i = 0; i < SLOTS; i++) {
             table[i] = new LinkedList<>();
         }

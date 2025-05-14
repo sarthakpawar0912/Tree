@@ -24,6 +24,7 @@ class HashTable {
         // Override toString for readable output when printing pairs
         @Override
         public String toString() {
+
             return "Pair{key=" + key + ", value='" + value + "'}";
         }
     }

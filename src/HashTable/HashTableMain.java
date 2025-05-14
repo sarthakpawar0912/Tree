@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 class HashTable {
 
+
     // Inner class to represent a key-value pair (roll number and name)
     static class Pair {
         int key; // Key represents the roll number

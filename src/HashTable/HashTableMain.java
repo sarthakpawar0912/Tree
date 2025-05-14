@@ -113,6 +113,7 @@ class HashTable {
 
         // Step 4: If key is not found, return null
         return null;
+
     }
 }
 

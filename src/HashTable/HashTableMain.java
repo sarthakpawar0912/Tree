@@ -151,7 +151,9 @@ public class HashTableMain {
 
             System.out.println("No such roll");
 
-        } else {
+        }
+        else {
+
             System.out.println("Name Found: " + name);
         }
 

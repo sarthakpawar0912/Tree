@@ -14,6 +14,7 @@ class HashTable {
 
         // Constructor to initialize key-value pair
         public Pair(int key, String value) {
+
             this.key = key;
             this.value = value;
         }

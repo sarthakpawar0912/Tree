@@ -99,6 +99,7 @@ class HashTable {
         // Step 2: Access the bucket (LinkedList) at the computed slot
         LinkedList<Pair> bucket = table[slot];
 
+
         // Step 3: Search for the key in the bucket (linear search)
         for (Pair pair : bucket) {
             // If key is found, return its associated value

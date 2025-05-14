@@ -148,6 +148,7 @@ public class HashTableMain {
 
         // Check if the name was found and print the result
         if (name == null) {
+
             System.out.println("No such roll");
         } else {
             System.out.println("Name Found: " + name);

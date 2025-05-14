@@ -76,6 +76,7 @@ class HashTable {
             if (pair.key == key) {
 
                 pair.value = value;
+
                 return;
             }
         }

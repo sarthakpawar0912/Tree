@@ -32,7 +32,9 @@ public class BFSMAIN {
             data = val;
 
             left = null;
+
             right = null;
+
         }
     }
 

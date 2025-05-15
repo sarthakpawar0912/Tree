@@ -44,6 +44,7 @@ public class BFSMAIN {
 
     // Constructor: initializes an empty BST
     public BFSMAIN() {
+
         root = null;
     }
 

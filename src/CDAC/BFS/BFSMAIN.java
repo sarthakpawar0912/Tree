@@ -46,6 +46,7 @@ public class BFSMAIN {
     public BFSMAIN() {
 
         root = null;
+
     }
 
     // Method to add a new value to the BST

@@ -59,6 +59,7 @@ public class BFSMAIN {
 
         // If tree is empty, set new node as root
         if (root == null) {
+
             root = newNode;
         } else {
             // Traverse to find the correct spot

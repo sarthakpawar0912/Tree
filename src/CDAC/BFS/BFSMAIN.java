@@ -50,6 +50,7 @@ public class BFSMAIN {
     }
 
     // Method to add a new value to the BST
+
     // Maintains BST property: left child < parent <= right child
     void add(int val) {
         // Create a new node with the given value

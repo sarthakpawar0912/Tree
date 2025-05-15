@@ -73,6 +73,7 @@ public class BFSMAIN {
                 if (val < trav.data) {
 
                     if (trav.left != null) {
+
                         trav = trav.left; // Move to left child
                     } else {
                         trav.left = newNode; // Add as left child

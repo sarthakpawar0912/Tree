@@ -82,7 +82,8 @@ public class BFSMAIN {
 
                         break;
                     }
-                } else { // Go right if value is larger or equal
+                }
+                else { // Go right if value is larger or equal
                     if (trav.right != null) {
                         trav = trav.right; // Move to right child
                     } else {

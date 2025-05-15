@@ -71,6 +71,7 @@ public class BFSMAIN {
 
                 // Go left if value is smaller
                 if (val < trav.data) {
+
                     if (trav.left != null) {
                         trav = trav.left; // Move to left child
                     } else {

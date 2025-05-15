@@ -63,6 +63,7 @@ public class BFSMAIN {
             root = newNode;
 
         } else {
+
             // Traverse to find the correct spot
             Node trav = root;
             while (true) {

@@ -79,6 +79,7 @@ public class BFSMAIN {
                     } else {
 
                         trav.left = newNode; // Add as left child
+
                         break;
                     }
                 } else { // Go right if value is larger or equal

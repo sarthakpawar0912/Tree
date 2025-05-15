@@ -86,6 +86,7 @@ public class BFSMAIN {
                 else { // Go right if value is larger or equal
 
                     if (trav.right != null) {
+
                         trav = trav.right; // Move to right child
                     } else {
                         trav.right = newNode; // Add as right child

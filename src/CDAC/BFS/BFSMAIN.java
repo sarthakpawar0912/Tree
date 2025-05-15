@@ -77,6 +77,7 @@ public class BFSMAIN {
                         trav = trav.left; // Move to left child
 
                     } else {
+
                         trav.left = newNode; // Add as left child
                         break;
                     }

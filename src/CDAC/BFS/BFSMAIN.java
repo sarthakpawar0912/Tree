@@ -30,6 +30,7 @@ public class BFSMAIN {
         public Node(int val) {
 
             data = val;
+
             left = null;
             right = null;
         }

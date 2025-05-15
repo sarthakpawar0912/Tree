@@ -56,6 +56,7 @@ public class BFSMAIN {
 
         // Create a new node with the given value
         Node newNode = new Node(val);
+
         // If tree is empty, set new node as root
         if (root == null) {
             root = newNode;

@@ -18,6 +18,7 @@ public class BFSMAIN {
         public Node() {
 
             data = 0;
+
             left = null;
             right = null;
         }

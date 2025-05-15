@@ -53,6 +53,7 @@ public class BFSMAIN {
 
     // Maintains BST property: left child < parent <= right child
     void add(int val) {
+
         // Create a new node with the given value
         Node newNode = new Node(val);
         // If tree is empty, set new node as root

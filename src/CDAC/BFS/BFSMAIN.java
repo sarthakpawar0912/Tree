@@ -68,6 +68,7 @@ public class BFSMAIN {
             Node trav = root;
 
             while (true) {
+
                 // Go left if value is smaller
                 if (val < trav.data) {
                     if (trav.left != null) {

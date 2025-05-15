@@ -20,6 +20,7 @@ public class BFSMAIN {
             data = 0;
 
             left = null;
+
             right = null;
         }
 

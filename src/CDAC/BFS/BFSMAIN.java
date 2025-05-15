@@ -66,6 +66,7 @@ public class BFSMAIN {
 
             // Traverse to find the correct spot
             Node trav = root;
+
             while (true) {
                 // Go left if value is smaller
                 if (val < trav.data) {

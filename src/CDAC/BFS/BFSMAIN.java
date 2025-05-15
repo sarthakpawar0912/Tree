@@ -28,6 +28,7 @@ public class BFSMAIN {
 
         // Parameterized constructor: creates a node with a given value
         public Node(int val) {
+
             data = val;
             left = null;
             right = null;

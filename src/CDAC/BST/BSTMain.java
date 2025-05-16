@@ -36,6 +36,7 @@ class BinarySearchTree {
         }
     }
 
+
     // Tree fields
     private Node root;  // Reference to the root node of the BST (topmost node)
 

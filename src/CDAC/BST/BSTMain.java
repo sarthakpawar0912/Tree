@@ -30,7 +30,9 @@ class BinarySearchTree {
             data = val;
 
             left = null;
+
             right = null;
+
         }
     }
 

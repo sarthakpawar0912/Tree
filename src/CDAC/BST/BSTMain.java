@@ -135,7 +135,9 @@ class BinarySearchTree {
         }
 
         inOrder(trav.left);
+
         System.out.println(trav.data+", ");
+
         inOrder(trav.right);
     }
     public void inorder(){

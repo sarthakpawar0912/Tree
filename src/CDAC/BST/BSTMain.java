@@ -126,8 +126,6 @@ class BinarySearchTree {
 
     }
 
-
-
     public void inOrder(Node trav){
         if(trav==null){
             return;

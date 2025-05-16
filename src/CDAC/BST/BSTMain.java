@@ -131,6 +131,7 @@ class BinarySearchTree {
         if(trav==null){
 
             return;
+
         }
         inOrder(trav.left);
         System.out.println(trav.data+", ");

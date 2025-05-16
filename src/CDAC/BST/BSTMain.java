@@ -63,6 +63,7 @@ class BinarySearchTree {
 
             // Start traversing from the root to find the correct spot
             Node trav = root;
+
             while (true) {
                 // If the new value is less than the current node's value
                 if (val < trav.data) {

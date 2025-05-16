@@ -15,6 +15,7 @@ class BinarySearchTree {
 
         // Default constructor: creates an empty node with default values
         public Node() {
+
             data = 0;
             left = null;
             right = null;

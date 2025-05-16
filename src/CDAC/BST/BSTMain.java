@@ -117,6 +117,7 @@ class BinarySearchTree {
         preOrder(trav.left);
 
         preOrder(trav.right);
+
     }
 
     public  void preorder(){

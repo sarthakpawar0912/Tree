@@ -58,7 +58,9 @@ class BinarySearchTree {
         if (root == null) {
 
             root = newNode;
+
         } else {
+
             // Start traversing from the root to find the correct spot
             Node trav = root;
             while (true) {

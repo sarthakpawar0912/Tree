@@ -148,9 +148,8 @@ class BinarySearchTree {
 
     }
 
-
-
     public void postOrder(Node trav){
+
         if(trav==null){
             return;
         }

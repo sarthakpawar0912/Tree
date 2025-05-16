@@ -105,7 +105,9 @@ class BinarySearchTree {
     }
 
     public void preOrder(Node trav){
+
         if(trav==null){
+
             return;
         }
         System.out.println(trav.data+", ");

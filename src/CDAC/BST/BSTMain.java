@@ -92,8 +92,10 @@ class BinarySearchTree {
 
                     }
                     else {
+
                         // If no right child, insert the new node as the right child
                         trav.right = newNode;
+
                         break; // Exit the loop since insertion is done
                     }
                 }

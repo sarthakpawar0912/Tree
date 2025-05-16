@@ -143,6 +143,7 @@ class BinarySearchTree {
     }
 
     public void inorder(){
+
         inOrder(root);
     }
 

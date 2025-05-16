@@ -56,6 +56,7 @@ class BinarySearchTree {
 
         // If the tree is empty (no root), make the new node the root
         if (root == null) {
+
             root = newNode;
         } else {
             // Start traversing from the root to find the correct spot

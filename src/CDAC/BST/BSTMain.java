@@ -17,7 +17,9 @@ class BinarySearchTree {
         public Node() {
 
             data = 0;
+
             left = null;
+
             right = null;
         }
 

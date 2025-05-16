@@ -50,6 +50,7 @@ class BinarySearchTree {
     // Method to add a new value to the BST
     // This maintains BST property: left child < parent <= right child
     void add(int val) {
+
         // Create a new node with the given value
         Node newNode = new Node(val);
 

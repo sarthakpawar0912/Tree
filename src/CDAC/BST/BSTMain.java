@@ -123,6 +123,7 @@ class BinarySearchTree {
     public  void preorder(){
 
         preOrder(root);
+
     }
 
 

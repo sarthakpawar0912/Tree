@@ -21,6 +21,7 @@ class BinarySearchTree {
             left = null;
 
             right = null;
+
         }
 
         // Parameterized constructor: creates a node with a given value

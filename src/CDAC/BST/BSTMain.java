@@ -87,7 +87,9 @@ class BinarySearchTree {
                     // If the new value is greater than or equal to the current node's value
                     // If there’s a right child, move to it
                     if (trav.right != null) {
+
                         trav = trav.right;
+
                     } else {
                         // If no right child, insert the new node as the right child
                         trav.right = newNode;

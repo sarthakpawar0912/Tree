@@ -109,6 +109,7 @@ class BinarySearchTree {
         if(trav==null){
 
             return;
+
         }
         System.out.println(trav.data+", ");
         preOrder(trav.left);

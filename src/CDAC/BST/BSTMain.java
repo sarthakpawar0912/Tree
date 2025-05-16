@@ -68,6 +68,7 @@ class BinarySearchTree {
 
                 // If the new value is less than the current node's value
                 if (val < trav.data) {
+
                     // If there’s a left child, move to it
                     if (trav.left != null) {
                         trav = trav.left;

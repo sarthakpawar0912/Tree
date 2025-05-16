@@ -5,6 +5,7 @@ class BinarySearchTree {
 
     // Node class representing a single node in the BST
     static class Node {
+
         int data;       // Stores the value of the node
         Node left;      // Reference to the left child node
         Node right;     // Reference to the right child node

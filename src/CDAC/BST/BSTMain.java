@@ -97,6 +97,7 @@ class BinarySearchTree {
                         trav.right = newNode;
 
                         break; // Exit the loop since insertion is done
+
                     }
                 }
             }

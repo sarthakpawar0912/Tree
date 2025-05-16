@@ -71,6 +71,7 @@ class BinarySearchTree {
 
                     // If there’s a left child, move to it
                     if (trav.left != null) {
+
                         trav = trav.left;
                     } else {
                         // If no left child, insert the new node as the left child

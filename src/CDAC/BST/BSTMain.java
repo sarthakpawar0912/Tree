@@ -111,6 +111,7 @@ class BinarySearchTree {
             return;
 
         }
+
         System.out.println(trav.data+", ");
         preOrder(trav.left);
         preOrder(trav.right);

@@ -12,6 +12,7 @@ class BinarySearchTree {
 
         Node right;     // Reference to the right child node
 
+
         // Default constructor: creates an empty node with default values
         public Node() {
             data = 0;

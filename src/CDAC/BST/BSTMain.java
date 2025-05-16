@@ -9,6 +9,7 @@ class BinarySearchTree {
         int data;       // Stores the value of the node
 
         Node left;      // Reference to the left child node
+
         Node right;     // Reference to the right child node
 
         // Default constructor: creates an empty node with default values

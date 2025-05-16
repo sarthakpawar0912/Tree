@@ -30,7 +30,7 @@ public class PopulatingNextRightPointersInEachNode { // Class for populating nex
             return null; // Returns null
         } // Handles base case
 
-        Node leftmost = root; // Tracks leftmost node of current level
+        Node leftmost = root; //   Tracks leftmost node of current level
 
         while (leftmost.left != null) { // While there are more levels (has children)
             Node current = leftmost; // Start at leftmost node of current level

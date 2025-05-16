@@ -196,82 +196,82 @@ public class AVLTrees { // Declares public class for AVL Tree
         avl1.display(); // Displays tree
         System.out.println();
 
-//        // Test Case 2: Empty tree
-//        System.out.println("Test Case 2: Empty AVL");
-//        System.out.println("-----------------------------------------");
-//        AVLTrees avl2 = new AVLTrees(); // Creates empty AVL tree
-//        System.out.println("Is tree empty? " + avl2.isEmpty()); // Expected: true
-//        avl2.display(); // Expected: "Tree is empty"
-//        System.out.println();
-//
-//        // Test Case 3: Single node
-//        System.out.println("Test Case 3: Single Node AVL");
-//        System.out.println("-----------------------------------------");
-//        AVLTrees avl3 = new AVLTrees(); // Creates new AVL tree
-//        avl3.insert(10); // Inserts single node
-//        System.out.println("Is tree empty? " + avl3.isEmpty()); // Expected: false
-//        avl3.display(); // Expected: 10
-//        System.out.println();
-//
-//        // Test Case 4: Left-Left imbalance (triggers right rotation)
-//        System.out.println("Test Case 4: Left-Left Imbalance");
-//        System.out.println("-----------------------------------------");
-//        AVLTrees avl4 = new AVLTrees(); // Creates new AVL tree
-//        int[] llValues = {30, 20, 10}; // Triggers LL imbalance
-//        for (int value : llValues) { // Inserts values
-//            avl4.insert(value);
-//        }
-//        System.out.println("Is tree empty? " + avl4.isEmpty()); // Expected: false
-//        avl4.display(); // Expected: Balanced tree (20 / \ 10 30)
-//        System.out.println();
-//
-//        // Test Case 5: Right-Right imbalance (triggers left rotation)
-//        System.out.println("Test Case 5: Right-Right Imbalance");
-//        System.out.println("-----------------------------------------");
-//        AVLTrees avl5 = new AVLTrees(); // Creates new AVL tree
-//        int[] rrValues = {10, 20, 30}; // Triggers RR imbalance
-//        for (int value : rrValues) { // Inserts values
-//            avl5.insert(value);
-//        }
-//        System.out.println("Is tree empty? " + avl5.isEmpty()); // Expected: false
-//        avl5.display(); // Expected: Balanced tree (20 / \ 10 30)
-//        System.out.println();
-//
-//        // Test Case 6: Left-Right imbalance
-//        System.out.println("Test Case 6: Left-Right Imbalance");
-//        System.out.println("-----------------------------------------");
-//        AVLTrees avl6 = new AVLTrees(); // Creates new AVL tree
-//        int[] lrValues = {30, 10, 20}; // Triggers LR imbalance
-//        for (int value : lrValues) { // Inserts values
-//            avl6.insert(value);
-//        }
-//        System.out.println("Is tree empty? " + avl6.isEmpty()); // Expected: false
-//        avl6.display(); // Expected: Balanced tree (20 / \ 10 30)
-//        System.out.println();
-//
-//        // Test Case 7: Right-Left imbalance
-//        System.out.println("Test Case 7: Right-Left Imbalance");
-//        System.out.println("-----------------------------------------");
-//        AVLTrees avl7 = new AVLTrees(); // Creates new AVL tree
-//        int[] rlValues = {10, 30, 20}; // Triggers RL imbalance
-//        for (int value : rlValues) { // Inserts values
-//            avl7.insert(value);
-//        }
-//        System.out.println("Is tree empty? " + avl7.isEmpty()); // Expected: false
-//        avl7.display(); // Expected: Balanced tree (20 / \ 10 30)
-//        System.out.println();
-//
-//        // Test Case 8: Complex AVL tree
-//        System.out.println("Test Case 8: Complex AVL Tree");
-//        System.out.println("-----------------------------------------");
-//        AVLTrees avl8 = new AVLTrees(); // Creates new AVL tree
-//        int[] complexValues = {50, 30, 70, 20, 40, 60, 80}; // Complex balanced tree
-//        for (int value : complexValues) { // Inserts values
-//            avl8.insert(value);
-//        }
-//        System.out.println("Is tree empty? " + avl8.isEmpty()); // Expected: false
-//        avl8.display(); // Expected: Balanced tree
-//        System.out.println();
+        // Test Case 2: Empty tree
+        System.out.println("Test Case 2: Empty AVL");
+        System.out.println("-----------------------------------------");
+        AVLTrees avl2 = new AVLTrees(); // Creates empty AVL tree
+        System.out.println("Is tree empty? " + avl2.isEmpty()); // Expected: true
+        avl2.display(); // Expected: "Tree is empty"
+        System.out.println();
+
+        // Test Case 3: Single node
+        System.out.println("Test Case 3: Single Node AVL");
+        System.out.println("-----------------------------------------");
+        AVLTrees avl3 = new AVLTrees(); // Creates new AVL tree
+        avl3.insert(10); // Inserts single node
+        System.out.println("Is tree empty? " + avl3.isEmpty()); // Expected: false
+        avl3.display(); // Expected: 10
+        System.out.println();
+
+        // Test Case 4: Left-Left imbalance (triggers right rotation)
+        System.out.println("Test Case 4: Left-Left Imbalance");
+        System.out.println("-----------------------------------------");
+        AVLTrees avl4 = new AVLTrees(); // Creates new AVL tree
+        int[] llValues = {30, 20, 10}; // Triggers LL imbalance
+        for (int value : llValues) { // Inserts values
+            avl4.insert(value);
+        }
+        System.out.println("Is tree empty? " + avl4.isEmpty()); // Expected: false
+        avl4.display(); // Expected: Balanced tree (20 / \ 10 30)
+        System.out.println();
+
+        // Test Case 5: Right-Right imbalance (triggers left rotation)
+        System.out.println("Test Case 5: Right-Right Imbalance");
+        System.out.println("-----------------------------------------");
+        AVLTrees avl5 = new AVLTrees(); // Creates new AVL tree
+        int[] rrValues = {10, 20, 30}; // Triggers RR imbalance
+        for (int value : rrValues) { // Inserts values
+            avl5.insert(value);
+        }
+        System.out.println("Is tree empty? " + avl5.isEmpty()); // Expected: false
+        avl5.display(); // Expected: Balanced tree (20 / \ 10 30)
+        System.out.println();
+
+        // Test Case 6: Left-Right imbalance
+        System.out.println("Test Case 6: Left-Right Imbalance");
+        System.out.println("-----------------------------------------");
+        AVLTrees avl6 = new AVLTrees(); // Creates new AVL tree
+        int[] lrValues = {30, 10, 20}; // Triggers LR imbalance
+        for (int value : lrValues) { // Inserts values
+            avl6.insert(value);
+        }
+        System.out.println("Is tree empty? " + avl6.isEmpty()); // Expected: false
+        avl6.display(); // Expected: Balanced tree (20 / \ 10 30)
+        System.out.println();
+
+        // Test Case 7: Right-Left imbalance
+        System.out.println("Test Case 7: Right-Left Imbalance");
+        System.out.println("-----------------------------------------");
+        AVLTrees avl7 = new AVLTrees(); // Creates new AVL tree
+        int[] rlValues = {10, 30, 20}; // Triggers RL imbalance
+        for (int value : rlValues) { // Inserts values
+            avl7.insert(value);
+        }
+        System.out.println("Is tree empty? " + avl7.isEmpty()); // Expected: false
+        avl7.display(); // Expected: Balanced tree (20 / \ 10 30)
+        System.out.println();
+
+        // Test Case 8: Complex AVL tree
+        System.out.println("Test Case 8: Complex AVL Tree");
+        System.out.println("-----------------------------------------");
+        AVLTrees avl8 = new AVLTrees(); // Creates new AVL tree
+        int[] complexValues = {50, 30, 70, 20, 40, 60, 80}; // Complex balanced tree
+        for (int value : complexValues) { // Inserts values
+            avl8.insert(value);
+        }
+        System.out.println("Is tree empty? " + avl8.isEmpty()); // Expected: false
+        avl8.display(); // Expected: Balanced tree
+        System.out.println();
 
         scanner.close(); // Closes scanner to prevent resource leak
     } // Summary: Tests AVL tree with all rotation cases and interactive input.

@@ -42,7 +42,9 @@ class BinarySearchTree {
 
     // Constructor: initializes an empty BST with no nodes
     public BinarySearchTree() {
+
         root = null;
+
     }
 
     // Method to add a new value to the BST

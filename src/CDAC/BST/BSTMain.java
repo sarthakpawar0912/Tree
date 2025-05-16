@@ -78,7 +78,9 @@ class BinarySearchTree {
 
                         // If no left child, insert the new node as the left child
                         trav.left = newNode;
+
                         break; // Exit the loop since insertion is done
+
                     }
                 } else { // If the new value is greater than or equal to the current node's value
                     // If there’s a right child, move to it

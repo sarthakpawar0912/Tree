@@ -19,6 +19,7 @@ public class SameTree {
         TreeNode(int val) {
 
             this.val = val; // Set node’s value
+
         }
 
         // Constructor: creates a node with value and children

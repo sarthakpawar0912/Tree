@@ -70,7 +70,9 @@ public class SameTree {
             if (current.left == null) {
 
                 current.left = new TreeNode(val);
+
                 break;
+
             } else {
                 queue.offer(current.left); // Add left child to queue
             }

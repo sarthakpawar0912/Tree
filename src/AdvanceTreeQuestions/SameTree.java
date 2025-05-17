@@ -134,6 +134,7 @@ public class SameTree {
         }
 
         System.out.println("Tree Structure:");
+
         // Call recursive display with root
         displayTree(root, "");
         System.out.println();

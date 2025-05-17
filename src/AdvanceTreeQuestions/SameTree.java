@@ -59,6 +59,7 @@ public class SameTree {
 
         // Use queue to insert nodes level by level
         java.util.Queue<TreeNode> queue = new java.util.LinkedList<>();
+
         queue.offer(root); // Start with root
         while (!queue.isEmpty()) {
             TreeNode current = queue.poll(); // Get next node

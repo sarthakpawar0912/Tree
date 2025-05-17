@@ -42,6 +42,7 @@ public class SameTree {
     public SameTree() {
 
         root = null; // Set root to null for empty tree
+
     }
 
     // Method to insert a node into the binary tree

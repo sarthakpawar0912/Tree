@@ -24,14 +24,19 @@ public class SameTree {
 
         // Constructor: creates a node with value and children
         TreeNode(int val, TreeNode left, TreeNode right) {
+
             this.val = val;   // Set node’s value
+
             this.left = left; // Set left child
+
             this.right = right; // Set right child
+
         }
     }
 
     // Tree field: root node of the binary tree
     private TreeNode root;
+
 
     // Constructor: initializes an empty tree
     public SameTree() {

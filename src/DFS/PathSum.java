@@ -39,6 +39,7 @@ public class PathSum { // Class for checking path sum
 
 
     public static void main(String[] args) { // Entry point for testing
+
         PathSum solution = new PathSum(); // Creates instance
 
         // Test Case 1: Example 1 - [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum=22

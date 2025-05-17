@@ -2,7 +2,6 @@ package DFS;
 
 public class MaximumDepthOfBinaryTree { // Class for computing max depth
 
-
     static class TreeNode {
         int val;
         TreeNode left;

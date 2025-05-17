@@ -33,6 +33,7 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
 
     // Helper method to perform in-order traversal and find kth node
     public TreeNode helper(TreeNode root, int k) { // Finds kth node via in-order DFS
+
         if (root == null) { // Empty node
             return null; // No node found
         }

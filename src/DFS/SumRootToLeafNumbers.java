@@ -2,7 +2,6 @@ package DFS;
 
 public class SumRootToLeafNumbers {
 
-
     public class TreeNode { // Simple node structure (non-static as provided)
         int val;
         TreeNode left;

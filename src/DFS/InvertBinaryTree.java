@@ -107,6 +107,7 @@ public class InvertBinaryTree {
             }
         }
 
+
         // Remove trailing comma if present
         if (result.charAt(result.length() - 1) == ',') {
             result.setLength(result.length() - 1);

@@ -2,7 +2,6 @@ package DFS;
 
 public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree to linked list
 
-
     static class TreeNode {
         int val;
         TreeNode left;

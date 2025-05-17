@@ -2,7 +2,6 @@ package DFS;
 
 public class ValidateBinarySearchTree {
 
-
     public class TreeNode {
         int val;
         TreeNode left;

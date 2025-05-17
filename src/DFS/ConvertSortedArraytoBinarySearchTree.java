@@ -2,7 +2,6 @@ package DFS;
 
 public class ConvertSortedArraytoBinarySearchTree { // Class for converting sorted array to BST
 
-
     static class TreeNode { // Simple node structure
         int val;
         TreeNode left;

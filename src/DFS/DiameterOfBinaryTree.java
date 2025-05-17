@@ -26,6 +26,7 @@ public class DiameterOfBinaryTree { // Class for computing tree diameter
     // Returns the diameter of the binary tree
     public int diameterOfBinaryTree(TreeNode root) { // Main method to compute diameter
         height(root); // Compute heights and update diameter
+
         return diameter; // Return max path length
     } // Summary: Initiates diameter computation (O(n) time, n=nodes).
 

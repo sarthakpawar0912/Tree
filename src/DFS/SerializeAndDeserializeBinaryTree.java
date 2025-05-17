@@ -62,6 +62,7 @@ public class SerializeAndDeserializeBinaryTree { // Class for serializing/deseri
             return null; // Return null node
         }
 
+
         TreeNode node = new TreeNode(Integer.parseInt(val)); // Create node
         node.left = helper2(list, index); // Build left subtree
         node.right = helper2(list, index); // Build right subtree

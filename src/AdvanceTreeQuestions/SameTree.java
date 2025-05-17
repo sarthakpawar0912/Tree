@@ -53,6 +53,7 @@ public class SameTree {
         if (root == null) {
 
             root = new TreeNode(val);
+
             return;
         }
         // Use queue to insert nodes level by level

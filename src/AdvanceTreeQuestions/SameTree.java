@@ -61,6 +61,7 @@ public class SameTree {
         java.util.Queue<TreeNode> queue = new java.util.LinkedList<>();
 
         queue.offer(root); // Start with root
+
         while (!queue.isEmpty()) {
             TreeNode current = queue.poll(); // Get next node
             // Insert as left child if slot is empty

@@ -116,6 +116,7 @@ public class SameTree {
         return (p.val == q.val) && // Compare values of current nodes
 
                 isSameTree(p.left, q.left) && // Recursively check left subtrees
+
                 isSameTree(p.right, q.right); // Recursively check right subtrees
     }
 

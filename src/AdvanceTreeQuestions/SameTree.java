@@ -97,6 +97,7 @@ public class SameTree {
 
     // Method to check if two binary trees are identical
     boolean isSameTree(TreeNode p, TreeNode q) {
+
         // Base case: if both nodes are null, trees are identical
         if (p == null && q == null) {
             return true; // Empty subtrees are considered same

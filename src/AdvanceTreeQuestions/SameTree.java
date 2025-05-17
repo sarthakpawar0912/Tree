@@ -88,6 +88,7 @@ public class SameTree {
 
             }
             else {
+
                 queue.offer(current.right); // Add right child to queue
             }
         }

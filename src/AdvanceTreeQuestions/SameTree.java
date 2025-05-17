@@ -9,6 +9,7 @@ public class SameTree {
         int val;           // Stores the value of the node
 
        TreeNode left;     // Reference to the left child node
+
         TreeNode right;    // Reference to the right child node
 
         // Constructor: creates an empty node

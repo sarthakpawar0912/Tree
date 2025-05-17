@@ -5,6 +5,7 @@ public class SameTree {
     // Definition for a binary tree node (static inner class)
 
     static class TreeNode {
+
         int val;           // Stores the value of the node
         TreeNode left;     // Reference to the left child node
         TreeNode right;    // Reference to the right child node

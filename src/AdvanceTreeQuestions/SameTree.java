@@ -65,6 +65,7 @@ public class SameTree {
         while (!queue.isEmpty()) {
 
             TreeNode current = queue.poll(); // Get next node
+
             // Insert as left child if slot is empty
             if (current.left == null) {
                 current.left = new TreeNode(val);

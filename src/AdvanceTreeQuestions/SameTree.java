@@ -51,6 +51,7 @@ public class SameTree {
 
         // If tree is empty, create root node
         if (root == null) {
+
             root = new TreeNode(val);
             return;
         }

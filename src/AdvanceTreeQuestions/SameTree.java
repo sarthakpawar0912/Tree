@@ -129,6 +129,7 @@ public class SameTree {
 
             System.out.println("Tree is empty");
             return;
+
         }
         System.out.println("Tree Structure:");
         // Call recursive display with root

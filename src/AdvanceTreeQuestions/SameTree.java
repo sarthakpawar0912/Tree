@@ -102,6 +102,7 @@ public class SameTree {
         if (p == null && q == null) {
 
             return true; // Empty subtrees are considered same
+
         }
         // Base case: if one node is null and other is not, trees differ
         if (p == null || q == null) {

@@ -68,6 +68,7 @@ public class SameTree {
 
             // Insert as left child if slot is empty
             if (current.left == null) {
+
                 current.left = new TreeNode(val);
                 break;
             } else {

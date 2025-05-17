@@ -107,6 +107,7 @@ public class SameTree {
 
         // Base case: if one node is null and other is not, trees differ
         if (p == null || q == null) {
+
             return false; // Different structure (one subtree is empty)
         }
         // Check if current nodes have same value and their subtrees are identical

@@ -76,6 +76,7 @@ public class SameTree {
             } else {
 
                 queue.offer(current.left); // Add left child to queue
+
             }
             // Insert as right child if slot is empty
             if (current.right == null) {

@@ -128,6 +128,7 @@ public class SameTree {
         if (root == null) {
 
             System.out.println("Tree is empty");
+
             return;
 
         }

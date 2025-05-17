@@ -48,6 +48,7 @@ public class SameTree {
     // Method to insert a node into the binary tree
     // Uses level-order insertion to build tree for testing
     void insert(int val) {
+
         // If tree is empty, create root node
         if (root == null) {
             root = new TreeNode(val);

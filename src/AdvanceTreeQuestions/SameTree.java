@@ -123,6 +123,7 @@ public class SameTree {
 
     // Method to display the tree structure for verification
     void display() {
+
         // Check if tree is empty
         if (root == null) {
             System.out.println("Tree is empty");

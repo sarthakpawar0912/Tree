@@ -85,6 +85,7 @@ public class SameTree {
                 current.right = new TreeNode(val);
 
                 break;
+
             } else {
                 queue.offer(current.right); // Add right child to queue
             }

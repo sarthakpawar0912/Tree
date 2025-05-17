@@ -109,6 +109,7 @@ public class SameTree {
         if (p == null || q == null) {
 
             return false; // Different structure (one subtree is empty)
+
         }
         // Check if current nodes have same value and their subtrees are identical
         return (p.val == q.val) && // Compare values of current nodes

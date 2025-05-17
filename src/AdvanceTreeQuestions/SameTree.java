@@ -118,6 +118,7 @@ public class SameTree {
                 isSameTree(p.left, q.left) && // Recursively check left subtrees
 
                 isSameTree(p.right, q.right); // Recursively check right subtrees
+
     }
 
     // Method to display the tree structure for verification

@@ -40,6 +40,7 @@ public class SameTree {
 
     // Constructor: initializes an empty tree
     public SameTree() {
+
         root = null; // Set root to null for empty tree
     }
 

@@ -5,6 +5,7 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
     static class TreeNode {
 
         int val;
+
         TreeNode left;
         TreeNode right;
 

@@ -36,6 +36,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
         helper(node); // Compute max path sum
 
         return ans; // Return result
+
     } // Summary: Initiates max path sum computation (O(n) time, n=nodes).
 
     // Helper method to compute max path sum recursively

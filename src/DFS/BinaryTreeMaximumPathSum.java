@@ -55,6 +55,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
 
         // Exclude negative sums to maximize path
         left = Math.max(0, left);
+
         right = Math.max(0, right);
 
         // Compute path sum through current node (left + node + right)

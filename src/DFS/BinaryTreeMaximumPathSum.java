@@ -45,6 +45,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
         if (node == null) { // Empty node
 
             return 0; // No contribution to path
+
         }
 
         // Recursively compute max path sums from left and right subtrees

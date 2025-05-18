@@ -28,7 +28,9 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
 
     // Flattens binary tree to linked list in-place using iterative approach
     public void flatten(TreeNode root) { // Main method to flatten tree
+
         TreeNode current = root; // Start with root node
+
         while (current != null) { // Process until no more nodes
             if (current.left != null) { // If node has left child
                 TreeNode temp = current.left; // Point to left subtree

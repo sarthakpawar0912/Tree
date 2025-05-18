@@ -17,7 +17,9 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
         }
 
         TreeNode(int val, TreeNode left, TreeNode right) { // Constructor with children
+
             this.val = val;
+
             this.left = left;
             this.right = right;
         } // Summary: Creates node with value and optional children.

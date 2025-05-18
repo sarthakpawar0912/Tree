@@ -46,6 +46,7 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
         if (root == null) { // Empty node
 
             return null; // No node found
+
         }
 
         // Traverse left subtree first (smaller values)

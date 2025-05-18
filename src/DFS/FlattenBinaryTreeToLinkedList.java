@@ -49,6 +49,7 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
                 current.right = current.left; // Move left subtree to right
 
                 current.left = null; // Clear left pointer
+
             }
             current = current.right; // Move to next node (right child)
         } // Summary: Flattens tree into pre-order linked list (O(n) time, O(1) space).

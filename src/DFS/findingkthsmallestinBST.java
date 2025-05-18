@@ -53,7 +53,9 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
         TreeNode left = helper(root.left, k);
 
         if (left != null) { // Kth node found in left subtree
+
             return left; // Return it
+
         }
 
         // Process current node

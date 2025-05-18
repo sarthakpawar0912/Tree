@@ -62,7 +62,9 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
         count++; // Increment count for current node
 
         if (count == k) { // Current node is kth smallest
+
             return root; // Return it
+
         }
 
         // Traverse right subtree (larger values)

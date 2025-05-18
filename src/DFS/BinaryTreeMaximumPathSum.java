@@ -66,6 +66,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
 
         // Return max path sum starting from node (for parent)
         return Math.max(left, right) + node.val;
+
     } // Summary: Uses DFS to compute and track max path sum.
 
 

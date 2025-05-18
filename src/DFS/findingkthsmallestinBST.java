@@ -37,6 +37,7 @@ public class findingkthsmallestinBST { // Class for finding kth smallest in BST
         TreeNode result = helper(root, k); // Get kth node
 
         return result.val; // Return its value
+
     } // Summary: Initiates kth smallest search (O(n) time, n=nodes).
 
     // Helper method to perform in-order traversal and find kth node

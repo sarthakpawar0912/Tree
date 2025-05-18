@@ -23,6 +23,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
             this.left = left;
 
             this.right = right;
+
         } // Summary: Creates node with value and optional children.
     }
 

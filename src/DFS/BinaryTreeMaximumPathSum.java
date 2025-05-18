@@ -50,6 +50,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
 
         // Recursively compute max path sums from left and right subtrees
         int left = helper(node.left);
+
         int right = helper(node.right);
 
         // Exclude negative sums to maximize path

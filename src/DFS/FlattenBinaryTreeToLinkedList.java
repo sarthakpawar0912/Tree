@@ -44,9 +44,10 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
                 }
 
                 // Rightmost of left subtree links to current's right
-
                 temp.right = current.right; // Connect left subtree's rightmost to right subtree
+
                 current.right = current.left; // Move left subtree to right
+
                 current.left = null; // Clear left pointer
             }
             current = current.right; // Move to next node (right child)

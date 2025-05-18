@@ -17,6 +17,7 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
         }
 
         TreeNode(int val, TreeNode left, TreeNode right) { // Constructor with children
+
             this.val = val;
             this.left = left;
             this.right = right;

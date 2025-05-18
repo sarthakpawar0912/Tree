@@ -7,6 +7,7 @@ public class FlattenBinaryTreeToLinkedList { // Class for flattening binary tree
         int val;
 
         TreeNode left;
+
         TreeNode right;
 
         TreeNode() {}

@@ -41,6 +41,7 @@ public class BinaryTreeMaximumPathSum { // Class for finding maximum path sum
 
     // Helper method to compute max path sum recursively
     int helper(TreeNode node) { // Computes max path sum starting from node
+
         if (node == null) { // Empty node
             return 0; // No contribution to path
         }
